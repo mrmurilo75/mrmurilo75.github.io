@@ -19,7 +19,8 @@ Having decided that I only needed a text editor for the actual information, and 
 # Step-by-step
 ### 1. Create a Github Repository.
 If you want it to be your user's Page it has to be named `<username>.github.io`. Select the option to **create a README** so the repository is created, instead of requiring a push.
-### 2. Create a **Codespace** for your repository.
+### 2. Create a Codespace for your repository.
+Once the repo is created, click on the *code* button as if you were to get the ssh url or download it. There will be a new tab *codespaces*, where you can create a new codespace or connect to an existing one.
 ### 3. Create a new Jekyll project
 Once in the codespace, create a new jekyll project then move all content to the root folder (of the repo).
 ``` bash
@@ -38,6 +39,7 @@ $ for f in $(ls -A) ; do mv template/$f ./$f ; done
 This will take you to a **New File** page, where you can edit the default *.github/workflows/jekyll-gh-pages.yml*. Simply click to commit (at the top right corner), to add it to your repository.
 
 [2024-09-17-setup-github-pages-to-jekyll-action]: /assets/img/posts/2024-09-17-welcome-to-jekyll---by-me/2024-09-17-setup-github-pages-to-jekyll-action.jpg
+
 ---
 
 # Extra Content
@@ -52,6 +54,7 @@ When running `jekyll serve` to see the site's progress, the following error occu
 Upon researching, I found an [github issue][jekyll-img-under-_post-issue] on the jekyll repo that seemed to describe the problem I was having. Jekyll processes the anything under `_posts` as a post, so it was trying to read the image as UTF8. The solution was to simply change the folder name to remove the `_`, resulting in `/assets/img/posts/<post name>/<datestamp>-<image name>.<ext>`.
 
 [jekyll-img-under-_post-issue]: https://github.com/jekyll/jekyll/issues/2592
+
 ---
 
 # References
