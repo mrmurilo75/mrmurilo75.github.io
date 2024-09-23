@@ -32,6 +32,13 @@ I realise the above is a bit too much for only one task. It is not a task, but a
 2. Write up ideas and relevant informations
 3. Plan next actions based on new information
 
+Guardrail: I dispersed myself on thinking about layout, but that is not the focus here. We'll first have simple pages working with listings from collections.
+Thoughts so far:
+    It seems the best way to go about this really is collections. They can have a permalink attribute to get the date from the filename or the front matter date key (preferably because it then orders by date).
+    Zettel needs only a few entry points, but those can be a tag on the collection.
+    As per the life or hobbies, those will be in the zettel. We can make post off of those, and create a separate collection if necessary (there are also other mechanisms to filter that can be evaluated later on).
+Guardrail: I don't know enough about what I'm trying to build to foresee issues or plan improvements. Trying to do so will only limit myself and possibly create more issues than it solves - it might then be classified as *overengineering*. **Keep focus. Fix as needed. Improve when opportune.** 
+
 ---
 
 ## Tracker
@@ -43,5 +50,6 @@ Here's a short progress report:
 | IDK | Create Jekyll Project and Deploy |
 | IDK | Write [first post][welcome-to-jekyll] |
 | 2024-09-18 | Create [this page]({{ page.url }}) |
+| 2024-09-23 | Annotate on [this page]({{ page.url }}) |
 
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
