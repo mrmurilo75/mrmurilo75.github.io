@@ -51,5 +51,6 @@ Here's a short progress report:
 | IDK | Write [first post][welcome-to-jekyll] |
 | 2024-09-18 | Create [this page]({{ page.url }}) |
 | 2024-09-23 | Annotate on [this page]({{ page.url }}) |
+| 2024-20-02 | Add new [page for note](/some-things-to-keep-in-mind/) |
 
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
