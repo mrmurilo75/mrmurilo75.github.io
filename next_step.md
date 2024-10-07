@@ -56,6 +56,8 @@ Here's a short progress report:
 | 2024-10-07 | - Create collections |
 | | - Implement entry points and sample structures |
 | | - Write first zettels on Jekyll |
+| | - Implement backlinks for zettelkasten |
+| | - Implement link back to index and to reports for projects |
 
 
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}

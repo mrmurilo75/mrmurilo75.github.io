@@ -14,3 +14,8 @@ project: personal-blog
 ---
 
 ## Progress Reports
+
+{% assign reports = site.projects | where: "project", page.project | where_exp: "item", "item.entry == nil" %}
+{% for report in reports %}
+* [{{report.title}}]({{report.url}})
+{% endfor %}
