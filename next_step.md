@@ -53,5 +53,9 @@ Here's a short progress report:
 | 2024-09-23 | Annotate on [this page]({{ page.url }}) |
 | 2024-10-02 | Add new [page for note](/some-things-to-keep-in-mind/) |
 | 2024-10-06 | Add [notes](/some-things-to-keep-in-mind/) |
+| 2024-10-07 | - Create collections |
+| | - Implement entry points and sample structures |
+| | - Write first zettels on Jekyll |
+
 
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
