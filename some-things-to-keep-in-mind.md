@@ -30,3 +30,20 @@ What I was my ideia of 'log', this person is calling [microposts]
 Also, she categorizes her blog as an [E/N Style Blog](https://microblog.desipenguin.com/post/e-n-style-blog/) which I am really exited to have figured is something people are doing, and that I thing this project falls into as well.
 
 [DHH-with-prime-and-deej]: https://m.youtube.com/watch?v=mTa2d3OLXhg
+
+--- 
+
+**2024-10-06**
+
+As per notes above, I'll only implement 2 collections (besides _post): Projects and Zettelkasten
+
+The zettelkasten works for general notes, 'logs', and 'micropost'. I'll group them using tags, and entry points are the notes (or zettels) that don't have any other as theis source. 
+    Note: I havent used the [Zettelkasten method][zettelkasten] yet, so I expect it to start taking form as I use it. Once I am more confortable with it I'll reevaluate and make a better structure if needed. 
+
+Projects notes will be group by folder and consequently by category (each project will be a category/folder). As an entry point for a project will have a blueprint page, which will link to the other notes or index pages as needed. Again, this will take form with use and can be reestructured if necessary.
+
+### Implementing:
+
+1. Add [collections with output][jekyll-docs-collections-output].
+[jekyll-docs-collections-output]: (https://jekyllrb.com/docs/step-by-step/09-collections/#output-a-page)
+2. Create the \_folder and listing page 
