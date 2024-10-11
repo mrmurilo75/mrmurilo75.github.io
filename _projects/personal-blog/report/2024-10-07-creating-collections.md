@@ -2,6 +2,7 @@
 layout: post
 title: Creating Collections
 project: personal-blog
+category: report back-log
 ---
 
 ## Achievements

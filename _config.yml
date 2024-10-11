@@ -63,9 +63,21 @@ plugins:
 #   https://jekyllrb.com/docs/step-by-step/09-collections/
 
 collections:
-  zettelkasten:
+  notebook:
     output: true
     permalink: /:collection/:path
   projects:
     output: true
     permalink: /:collection/:path
+
+defaults:
+  -
+    scope:
+      path: "_projects"
+    values:
+      layout: post
+  -
+    scope:
+      path: "_notebook"
+    values:
+      layout: post

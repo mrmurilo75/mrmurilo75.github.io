@@ -51,3 +51,9 @@ Projects notes will be group by folder and consequently by category (each projec
 
 1. Add [collections with output][jekyll-docs-collections-output].
 2. Create the \_folder and listing page 
+
+---
+
+**2024-10-10**
+
+**[I moved what I written here into the proper place!]({% link _projects/personal-blog/discussions/2024-10-10-2334-structure.md %})**
