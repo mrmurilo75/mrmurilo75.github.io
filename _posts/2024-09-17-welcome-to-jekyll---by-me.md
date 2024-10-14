@@ -72,6 +72,6 @@ Upon researching, I found an [github issue][jekyll-img-under-_post-issue] on the
 
 ## References
 
-* [Creating a GitHub Pages site with Jekylla | GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+* [Creating a GitHub Pages site with Jekyll - GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 * [Jekyll Docs](https://jekyllrb.com/docs/)
 * Some assistance from [ChatGPT](https://chatgpt.com/)!
