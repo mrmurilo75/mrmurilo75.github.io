@@ -1,4 +1,5 @@
 ---
+title: Theme and sections
 project: personal-blog
 category: discussion
 ---
