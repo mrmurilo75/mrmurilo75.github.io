@@ -2,6 +2,7 @@
 title: Theme and sections
 project: personal-blog
 category: discussion
+open: false
 ---
 
 ### Jekyll Theme and Sections
