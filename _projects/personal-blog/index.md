@@ -14,12 +14,16 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 ### Scope
 
+> * Project tracking and planning
+> * Notetaking
+> * Reference keeping and creating
+> * Inspirations referencing
+
 ### Roadmap
 
 #### Near future
 
 [ ] CV Page
-[ ] Inspirations page
 
 #### Far Future
 
