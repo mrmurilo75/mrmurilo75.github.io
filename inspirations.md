@@ -8,6 +8,13 @@ In a world ruled by algorithms, where 'subscribing' to a channel on youtube or '
 
 > This page is a work in progress. It has been kickstarted into existence and will grow progressively.
 
+## Studies
+
+### Courses
+
+[curso.dev](https://curso.dev/) - Course with the amazing Felipe Deschamps
+[Alura Brazil](https://cursos.alura.com.br/) - A tech school from Brazil
+
 ## Books
 
 ### Current reads
