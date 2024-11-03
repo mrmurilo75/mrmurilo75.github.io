@@ -16,15 +16,15 @@ permalink: /projects/
 
 ```
 _projects/ <- You are here
-    `- [project]/
-        `- project_index
-            |- [feature]/
-            |   |- feature_index (with planned work and tracking)
-            |   `- logs/
-            |- logs/
-            |- reports/
-            `- discussions/
-                `- closed/
+└── [project]/
+    ├── project_index
+    ├── [feature]/
+    │   ├── feature_index (with planned work and tracking)
+    │   └── logs/
+    ├── logs/
+    ├── reports/
+    └── discussions/
+        └── closed/
 ```
 
 ### Planning
