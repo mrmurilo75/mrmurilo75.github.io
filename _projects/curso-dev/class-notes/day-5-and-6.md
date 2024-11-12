@@ -1,5 +1,5 @@
 ---
-title: Day 5
+title: Day 5 & 6
 category: class-note
 project: curso-dev
 ---
@@ -21,3 +21,5 @@ Lastly, we can look at the commited "snapshots" by using `git log`. See the `--s
 To see the change between two commits we can use `git diff`.
 
 To push the staged changes to the last commit (ammend it) we can use `git commit --ammend`. We can also pass a message argument if we want to change it.
+
+When using a remote repository, we can send our local changes to it using `git push`. If our local branch has changes that conflict with the remote, but that we are sure we want to override, we can use the flag `--force` or the short form `-f`.
