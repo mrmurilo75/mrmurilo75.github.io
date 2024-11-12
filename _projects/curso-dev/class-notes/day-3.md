@@ -1,5 +1,5 @@
 ---
-title: Day 3
+title: Day 3 - Node.js & NVM
 category: class-note
 project: curso-dev
 ---

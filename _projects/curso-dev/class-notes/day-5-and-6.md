@@ -1,8 +1,10 @@
 ---
-title: Day 5 & 6
+title: Day 5 & 6 - Git basics
 category: class-note
 project: curso-dev
 ---
+
+> Although this is pretty basics, it is a good starting point to a more comprehensive post on it. 
 
 ## Git
 

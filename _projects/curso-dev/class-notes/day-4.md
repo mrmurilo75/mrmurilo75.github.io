@@ -1,5 +1,5 @@
 ---
-title: Day 4
+title: Day 4 - NPM Commands & Next.js Routes
 category: class-note
 project: curso-dev
 ---
@@ -21,7 +21,6 @@ Routes are defined by the files in the *'pages'* folder, the route being the fil
 * [add index page with Home function](https://github.com/mrmurilo75/clone-tabnews/commit/1bc0ab6b79666cd40ace5f7f5ff8472c00889d32)
 
 * [gitignore .next folder](https://github.com/mrmurilo75/clone-tabnews/commit/c5237d10d664735859517f0ad358470b3b1d384a)
-
 
 ---
 
