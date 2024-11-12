@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curso-Dev do Filipe Deschamps
+title: Curso-Dev by Filipe Deschamps
 category: index
 project: curso-dev
 ---
