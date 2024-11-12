@@ -5,6 +5,8 @@ category: index
 project: personal-blog
 ---
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
+[resume]: {% link resume.html %}
+[curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
 
 ## Planning 
 
@@ -21,14 +23,19 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 ### Roadmap
 
-#### Near future
+#### Next Tasks
 
-[ ] CV Page
 
-#### Far Future
+#### To Be Planned
 
 [ ] Custom Layout
-    * Collapsible listings
+* Collapsible listings
+
+[ ] Git CheatSheet and Blog Post ([start here][curso-dev_day-5-and-6])
+
+#### Done
+
+[X] [CV Page][resume]
 
 ---
 
