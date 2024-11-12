@@ -2,6 +2,7 @@
 title: Day 4 - NPM Commands & Next.js Routes
 category: class-note
 project: curso-dev
+date: 2024-11-09
 ---
 
 ## TL;DR

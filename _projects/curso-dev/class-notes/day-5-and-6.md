@@ -2,6 +2,7 @@
 title: Day 5 & 6 - Git basics
 category: class-note
 project: curso-dev
+date: 2024-11-10
 ---
 
 > Although this is pretty basics, it is a good starting point to a more comprehensive post on it. 

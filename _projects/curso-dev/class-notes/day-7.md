@@ -2,6 +2,7 @@
 title: Day 7 - Hosting on Vercel
 category: class-note
 project: curso-dev
+date: 2024-11-11
 ---
 [vercel-commit-deplyed]: https://vercel.com/mrmurilo75s-projects/clone-tabnews/H6ce3DYQF6A1CGPKfd4uGWeeN9vR
 

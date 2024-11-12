@@ -2,6 +2,7 @@
 title: Day 3 - Node.js & NVM
 category: class-note
 project: curso-dev
+date: 2024-11-03
 ---
 
 ## TL;DR
