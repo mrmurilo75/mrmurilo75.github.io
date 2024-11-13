@@ -7,6 +7,7 @@ project: personal-blog
 [welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
 [resume]: {% link resume.html %}
 [curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
+[curso-dev_day-8-and-9]: {% link _projects/curso-dev/class-notes/day-8-and-9.md %}
 
 ## Planning 
 
@@ -32,6 +33,8 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 * Collapsible listings
 
 [ ] Git CheatSheet and Blog Post ([start here][curso-dev_day-5-and-6])
+
+[ ] Further improve the description and structuring of logs, discussion, reports based on curso-dev related [classes on planning and structure][curso-dev_day-8-and-9]
 
 #### Done
 
