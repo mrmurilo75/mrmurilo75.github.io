@@ -65,3 +65,17 @@ It should be as simple as possible, but still show all the relevant information.
 For example, in software development, if you only showed the metric of completed issues to total of issues, you would have the percentage both raise and lower. That's because it is not linear, and issues arise as you progress. How many issues were closed and how many were open is a much more relevant metric.
 
 > This pretty closely relates to how I structure my project's planning. *Logs* being like the personal notes, *discussions* being like group notes (even though it's just me), *reports* being the expanded knowledge, and *index* being like a metrics tracker.
+
+---
+
+## Project Creation
+
+### All or Nothing
+
+We often see a big project as a huge monolith that needs to be brought into existence as a whole. It feels like there is no in-between: you either do it all in one go, or don't even try.
+
+That's where planning and analysis will help you most. That huge monolith you imagine can be broken down into many many bricks, that we are going to build up our project.
+
+### Inception Issue
+
+The inception issue is an analysis of the project goals and strategy. A "reality check" for the project idea and **why it exists**.
