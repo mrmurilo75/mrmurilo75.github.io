@@ -4,7 +4,7 @@ category: class-note
 project: curso-dev
 date: 2024-11-12
 ---
-[focus-note-in-notebook]: {% link _notebook/2024-10-02-0000-focus.md %}
+[tabnews-inception-issue]: https://github.com/filipedeschamps/tabnews.com.br/issues/1
 
 These classes are a little bit more philosophical and relate to Filipe's experience in development. I'll go even further and say that they relate to not only development but life in general. 
 
@@ -79,3 +79,5 @@ That's where planning and analysis will help you most. That huge monolith you im
 ### Inception Issue
 
 The inception issue is an analysis of the project goals and strategy. A "reality check" for the project idea and **why it exists**.
+
+As an example, see the [inception issue][tabnews-inception-issue] for the tabnews project.
