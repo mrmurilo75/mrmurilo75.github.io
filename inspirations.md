@@ -36,3 +36,6 @@ Waking Up - by Sam Harris
 - Gostosas tambem choram (Spotify)
 - Very Bad Wizards (Spotify)
 
+---
+
+- [TabNews.com.br](https://tabnews.com.br) (Social Network for Developers in Brazil)
