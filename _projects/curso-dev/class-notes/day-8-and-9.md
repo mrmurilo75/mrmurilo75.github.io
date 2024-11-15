@@ -81,3 +81,27 @@ That's where planning and analysis will help you most. That huge monolith you im
 The inception issue is an analysis of the project goals and strategy. A "reality check" for the project idea and **why it exists**.
 
 As an example, see the [inception issue][tabnews-inception-issue] for the tabnews project.
+
+---
+
+## Gamification of Progress
+
+When planning your project think of your favorite game's **progression system**!
+
+More than likely, your game will have achievements, story points, missions, and tasks. They need be **as clear and simple as possible**, and **get feedback upon completion**. 
+
+At the start the tasker are more descriptive. They need show you the mechanics of the game. Once you understand that then they can be a bit more broad, but the objetive needs to remain clear. The steps can only be abstracted once they become trivial. 
+
+It is also important to try and help when the player get stuck. It might be that they forgot a mechanic, or got sidetracked and forgot a step. In these cases, showing the smaller steps will likely be big help.
+
+Once an objective is complete **give feedback** (remember the importance of a [feedback system][class-notes-day-8-and-9]). This will keep boosting their motivation for the next task.
+
+### Dopamine
+
+All of these mechanics are based on the brain's dopamine reward system.
+
+The dopanime releases happen in 3 stages:
+
+1. Startup - Dopamine is release when you start a task. Your physiology changes to prepare you for it (like making you more alert).
+2. Progress - Receiving feedback that progress is being made also releases dopamine.
+3. Conclusion - When the task is done, dopamine is also released. It makes the experience stick and boost your motivation to repeat the process.
