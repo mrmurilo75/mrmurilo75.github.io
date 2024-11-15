@@ -8,6 +8,7 @@ project: pc-config
 [caps-swap-escape]: {% link _projects/pc-configuration/2024-11-04-caps-swap-escape.md %}
 [maximizing linux battery life]: https://thelinuxcode.com/15-tips-improve-laptop-battery-life/
 [reddit linux battery]: https://www.reddit.com/r/linux4noobs/comments/zdjqc9/battery_life_on_linux_sucks_out_of_the_box_i_got/
+[github-jcchikkikomori-matebook-d15]: https://github.com/jcchikikomori/linux-on-huawei-matebook-d15-2021/tree/master
 
 
 This project is the monitoring and tracking of changes and investigations I make while tweaking my personal setup.
@@ -18,7 +19,7 @@ I am a fan of Unix and Unix-like systems. I like changing OS not only because I 
 
 I am currently using a Huawei Laptop - the Matebook D15. I already found that battery life is a common issues, as well as some missing drivers. I could not find the sound card drivers anywhere, but since I use bluetooth headphones, I am not too worried.
 
-For browsing I use Brave, especially because I like the Brave Search. But since the 
+I have found [this github repo][github-jcchikkikomori-matebook-d15] for this exact model, that tracks relevant information and contains some util scripts.
 
 ## Planned work
 
