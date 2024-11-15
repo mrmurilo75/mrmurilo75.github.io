@@ -6,10 +6,14 @@ layout: home
 title: Welcome!
 ---
 [resume]: {% link resume.html %}
+[portuguese-resume]: {% link portuguese-resume.html %}
 [_post-welcome-to-jekyll---by-me]: {% link _posts/2024-09-17-welcome-to-jekyll---by-me.md %}
 
 This is my personal space where I'll write about (most) things I learn, as well as keep track of projects.
-If you'd like to know a little bit more about my professional experiences, check out my [resume].
+If you'd like to know a little bit more about my professional experiences, check out my [resume] (also available in [portuguese][portuguese-resume]).
+
+> Note: The resume page is a self-suficient HTML file! This means you can download and use it offline - it has no script and the css is embedeed.
+> You can also print it to PDF (although page breaks might make it look worse).
 
 ---
 
