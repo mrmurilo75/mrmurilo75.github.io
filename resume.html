@@ -66,6 +66,11 @@ permalink: /resume.html
       margin-bottom: 1em;
     }
 
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
     ul {
       margin-bottom: 1em;
       padding-left: 20px;
@@ -132,7 +137,11 @@ permalink: /resume.html
       background-color: #ffffff;
     }
 
-    .print-separator {
+    .site-only {
+      display: initial;
+    }
+
+    .print-only {
       display: none;
     }
 
@@ -174,6 +183,14 @@ permalink: /resume.html
       span.group {
         display: block;
         page-break-inside: avoid;
+      }
+
+      .print-only {
+        display: initial;
+      }
+
+      .site-only {
+        display: none;
       }
 
       span.print-separator {
@@ -264,13 +281,13 @@ permalink: /resume.html
           <dt>Phone Number:</dt>
           <dd>(Portugal) 915 020 625</dd>
           <dt>E-mail:</dt>
-          <dd>mrmurilo75[at]gmail.com</dd>
+          <dd>mrmurilo75<span class="site-only">[at]</span><span class="print-only">@</span>gmail.com</dd>
           <dt>LinkedIn:</dt>
-          <dd>linkedin.com/in/murilo-r-630161123/</dd>
+          <dd><a href="https://linkedin.com/in/murilo-r-630161123/">linkedin.com/in/murilo-r-630161123/</a></dd>
           <dt>GitHub:</dt>
-          <dd>github.com/mrmurilo75/</dd>
+          <dd><a class="https://github.com/mrmurilo75/">github.com/mrmurilo75/</a></dd>
           <dt>Personal Site:</dt>
-          <dd>mrmurilo75.github.io/</dd>
+          <dd><a class="https://mrmurilo75.github.io/">mrmurilo75.github.io/</a></dd>
         </dl>
       </div>
     </div>
@@ -339,7 +356,7 @@ permalink: /resume.html
                 <p>Ad. Evolutio (March 2022 - September 2023)</p>
                 <ul>
                   <li>
-                    Complete development of Django-based application from client's specification, including data
+                    Complete development of Django-based applications from client's specification, including data
                     modelling, validation of business logic, integration with external services, integration with use
                     case-specific frameworks, and more.
                   </li>
@@ -391,7 +408,7 @@ permalink: /resume.html
               </dd>
             </span>
             <span class="group">
-              <span class="print-separator"></span>
+              <span class="print-only print-separator"></span>
               <dt>Programmer <span class="separator">of</span> TamanduTech Robotics Team</dt>
               <dd>
                 <p>Federal University of ABC (September 2018 - June 2019)</p>
@@ -399,8 +416,7 @@ permalink: /resume.html
                   <li>
                     Work with the team to develop the algorithms and assemble the
                     electronics components aiming for the best performance in the several competitions, mainly in the
-                    Line
-                    Follower category.
+                    Line Follower category.
                   </li>
                 </ul>
               </dd>
@@ -415,8 +431,8 @@ permalink: /resume.html
                     projectors, and other electronics owned by the Federal University of ABC.
                   </li>
                   <li>
-                    Participation in the development and build of an acrylic plate with LED
-                    lighting sign controlled through the Internet.
+                    Participation in the development and build of indicator sign, composed of an acrylic plate with LED
+                    lights, controlled through the Internet.
                   </li>
                 </ul>
             </span>
