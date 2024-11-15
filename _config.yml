@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Murilo's Pink Space 🧠
-email: mrmurilo75@gmail.com
+email: mrmurilo75[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, my name is Murilo Rosa (which means pink in portuguese 😃). This is my personal 
   blog, where I'll make notes of (most) things I learn. Hope you enjoy your time here!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mrmurilo75.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: mrmurilo75.github.io
-# twitter_username: jekyllrb
 github_username:  mrmurilo75
+linkedin_username: murilo-r-630161123
 
 # Build settings
 theme: minima
