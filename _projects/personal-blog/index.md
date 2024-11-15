@@ -36,6 +36,8 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 [ ] Further improve the description and structuring of logs, discussion, reports based on curso-dev related [classes on planning and structure][curso-dev_day-8-and-9]
 
+[ ] Write a post about planning and gamification of progress based on curso-dev notes on [Planning & Tracking][curso-dev_day-8-and-9]
+
 #### Done
 
 [X] [CV Page][resume]
