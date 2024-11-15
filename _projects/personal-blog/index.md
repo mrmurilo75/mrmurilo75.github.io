@@ -8,6 +8,9 @@ project: personal-blog
 [resume]: {% link resume.html %}
 [curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
 [curso-dev_day-8-and-9]: {% link _projects/curso-dev/class-notes/day-8-and-9.md %}
+[custom-layout_log]: {% link _projects/personal-blog/log/2024-11-15-custom-layout.md %}
+[notebook-notes-groups_log]: {% link _projects/personal-blog/log/2024-11-15-notebook-notes-groups.md %}
+
 
 ## Planning 
 
@@ -26,17 +29,21 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 #### Next Tasks
 
+[ ] Custom Layout - [In Progress][custom-layout_log]
+* Change listing to most-recent at the top
+* Collapsible listings
+
+!! [ ] Group notes on Notebook - [In Progress][notebook-notes-groups_log]
 
 #### To Be Planned
 
-[ ] Custom Layout
-* Collapsible listings
-
-[ ] Git CheatSheet and Blog Post ([start here][curso-dev_day-5-and-6])
-
 [ ] Further improve the description and structuring of logs, discussion, reports based on curso-dev related [classes on planning and structure][curso-dev_day-8-and-9]
 
-[ ] Write a post about planning and gamification of progress based on curso-dev notes on [Planning & Tracking][curso-dev_day-8-and-9]
+##### Posts
+
+[ ] Git Usage + CheatSheet - based on [these notes][curso-dev_day-5-and-6] from curso-dev
+
+[ ] Gamification of Progress - based on curso-dev notes on [Planning & Tracking][curso-dev_day-8-and-9]
 
 #### Done
 
