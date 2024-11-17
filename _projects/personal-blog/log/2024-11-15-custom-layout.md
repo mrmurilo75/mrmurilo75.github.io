@@ -11,7 +11,7 @@ category: log
 
 ## Status
 
-Evaluate and plan.
+
 
 ---
 
@@ -46,17 +46,19 @@ For the moment, I will simply apply the color and minimal layout changes. Then t
 
 ## Next
 
-### [ ] Minimal layout changes - based on [resume]
+### [-] Minimal layout changes - based on [resume]
 
-[ ] Change background color to darker pink
+[X] Change background color to darker pink
 
-[ ] Put main content in a paper-like wrapper, with h1 inside a pink box, and other content in inner white box
+[X] Put main content in a paper-like wrapper with content inside pink box
+
+[ ] h1 inside a pink box, and other content in inner white box with border (use column, like mobile version of [resume])
 
 > should be easy enough since h1 comes from title so its already applied by layout template
 
-[ ] Header in white box - all the way to the sides
+[X] Header with no background ~~in white box - all the way to the sides~~
 
-[ ] Footer in white box - all the way to the sides
+[X] Footer  with no background ~~in white box - all the way to the sides~~
 
 ## To Be Planned
 
