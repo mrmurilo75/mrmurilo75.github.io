@@ -51,36 +51,39 @@ $on-fullscreen:    1400px !default;
   "minima/syntax-highlighting"
 ;
 
-body, h1, h2, h3, h4, h5, h6,
+main, body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   box-sizing: border-box;
 }
 
-.page-content {
-    padding: -webkit-calc(#{$spacing-unit} / 2);
-    padding:         calc(#{$spacing-unit} / 2);
-}
-
 .wrapper {
+  width: -webkit-calc(100% - (#{$spacing-unit} * 4));
+  width:         calc(100% - (#{$spacing-unit} * 4));
   max-width: 1240px;
-  width: 100%;
-
-  @include media-query($on-fullscreen) {
-    width: -webkit-calc(100% - (#{$spacing-unit} * 4));
-    width:         calc(100% - (#{$spacing-unit} * 4));
-  }
+  margin: 0 auto;
+    padding: $spacing-unit / 2;
+  box-sizing: border-box;
 
   @include media-query($on-laptop) {
     width: -webkit-calc(100% - (#{$spacing-unit} * 2));
     width:         calc(100% - (#{$spacing-unit} * 2));
   }
+
+  @include media-query($on-laptop) {
+    width: -webkit-calc(100% - #{$spacing-unit});
+    width:         calc(100% - #{$spacing-unit});
+  }
 }
 
-main {
-  margin: 0 auto;
+main > .wrapper {
   background: #fff;
   box-shadow: 0 0 10px #0000001f;
+  padding: $spacing-unit;
+}
+
+main.page-content {
+  padding: $spacing-unit / 2;
 }
 
 .container {

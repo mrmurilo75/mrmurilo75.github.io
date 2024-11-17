@@ -36,6 +36,16 @@ So, from this example, I found that it is basically composed of:
 
 The *\_includes* are reusable from .md as well, so these are a solution for reusable styled pieces. For customization of the piece we can pass in variables. If we want to have content inside a styled HTML block we could use opening and closing *includes*.
 
+#### PBlock
+
+To create a reusable container with a left and right (for big screen) like the [resume] we can create 3 pieces of *includes*:
+
+1. PBlock-open: creates a new open tags for container and the left side
+2. PBlock-break: closes the left side and opens the right side
+3. PBlock-close: closes the left side and the container
+
+> PBlock because its the **P**ink Block.
+
 ---
 
 ## Roadmap
@@ -61,6 +71,8 @@ For the moment, I will simply apply the color and minimal layout changes. Then t
 [X] Footer  with no background ~~in white box - all the way to the sides~~
 
 ## To Be Planned
+
+[ ] Create the PBlock reusable pieces - **See above in #PBlock**
 
 [ ] Notebook and Projects listing pages
 
