@@ -4,7 +4,7 @@ title: Personal Blog
 category: index
 project: personal-blog
 ---
-[welcome-to-jekyll]: {% post_url 2024-09-17-welcome-to-jekyll---by-me %}
+[welcome-to-jekyll]: {% link _posts/2024-09-17-welcome-to-jekyll---by-me.md %}
 [resume]: {% link resume.html %}
 [curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
 [curso-dev_day-8-and-9]: {% link _projects/curso-dev/class-notes/day-8-and-9.md %}
@@ -30,12 +30,12 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 #### Next Tasks
 
 [ ] Custom Layout - [In Progress][custom-layout_log]
-* Change listing to most-recent at the top
-* Collapsible listings
 
-!! [ ] Group notes on Notebook - [In Progress][notebook-notes-groups_log]
+[ ] Group notes on Notebook - [In Progress][notebook-notes-groups_log]
 
 #### To Be Planned
+
+[ ] Write the README - Describe the project and explain usage/install
 
 [ ] Further improve the description and structuring of logs, discussion, reports based on curso-dev related [classes on planning and structure][curso-dev_day-8-and-9]
 
@@ -48,6 +48,7 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 #### Done
 
 [X] [CV Page][resume]
+[X] [CV Page in Portuguese][resume]
 
 ---
 
