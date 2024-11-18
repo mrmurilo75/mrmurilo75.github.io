@@ -12,28 +12,33 @@ project: personal-blog
 [notebook-notes-groups_log]: {% link _projects/personal-blog/log/2024-11-15-notebook-notes-groups.md %}
 
 
-## Planning 
+## Planning
 
 ### Goals
 
-This site is a hub of knowledge for myself. Not only will I write studies/posts, but I plan on having most - if not all - the information that can be shared in here. It might be too ambitious, but we should always **strive for greatness**. In light of this objective, I'll keep this page as a tracker for the next change to be made to this site.
+This site is a hub of knowledge for myself. Not only will I write studies/posts, but I plan on having most - if not all - the information that can be shared in here. It might be too ambitious, but we should always **strive for greatness**.
 
 ### Scope
 
-> * Project tracking and planning
-> * Notetaking
-> * Reference keeping and creating
-> * Inspirations referencing
+* Planning and tracking projects
+* Note-taking
+* Create reference for repeatable tasks 
+* Reference inspirations
+* Software agnostic - content needs to be visible and understandable as plain text
 
 ### Roadmap
 
 #### Next Tasks
+
+[ ] Rewrite this project's [Inception]
 
 [ ] Custom Layout - [In Progress][custom-layout_log]
 
 [ ] Group notes on Notebook - [In Progress][notebook-notes-groups_log]
 
 #### To Be Planned
+
+[ ] Rewrite the Home page's content
 
 [ ] Write the README - Describe the project and explain usage/install
 
