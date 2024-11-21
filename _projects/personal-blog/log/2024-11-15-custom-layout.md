@@ -56,6 +56,8 @@ For the moment, I will simply apply the color and minimal layout changes. Then t
 
 ## Next
 
+[ ] Make the border's in $on_palm **smaller** 
+
 ### [-] Minimal layout changes - based on [resume]
 
 [X] Change background color to darker pink
