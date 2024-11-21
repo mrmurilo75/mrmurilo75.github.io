@@ -1,5 +1,5 @@
 ---
-title: Day 9 - Milestones
+title: Day 9 & 10 - Github Issues
 category: class-note
 project: curso-dev
 date: 2024-11-12
@@ -13,7 +13,7 @@ date: 2024-11-12
 
 Github issues are a powerful tool for project planning and tracking, especially for open-source software projects. 
 
-On the project homepage there is a tab *"Issues"* where they live.An issue can be assigned to people, be part of a Kaban board, and much more. We'll dive deeper into their features in the future.
+On the project homepage there is a tab *"Issues"* where they live. An issue can be assigned to people, be part of a Kaban board, and much more. We'll dive deeper into their features in the future.
 
 ## Milestones
 
@@ -26,6 +26,16 @@ As development progresses and we acquire more knowledge, the Milestones (and oth
 ### Associate Issues
 
 When we create an issue, we can associate it to a Milestone. Github will then update the Milestones progress to show open and closed issues, and calculate a progress percentage based on it.
+
+#### Tasks of an Issue
+
+In the text of an issue we can add the following to create a checklist item:
+
+```text
+- [ ] Some task
+```
+
+This used by Github to automatically calculate our progression both in the issue and the milestone, if associated.
 
 ---
 
