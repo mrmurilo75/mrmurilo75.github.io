@@ -21,7 +21,7 @@ I want to apply custom styling to the site, and have more control over looks and
 
 In Jekyll this UI control would be called a [theme][jekyll-themes-doc]. But the docs on themes is lacking, in my opinion. It doesn't really says how to create a theme.
 
-Since we are using the default theme *"minima"*, I have copied all files from it with `cp -r $(bundle info --path minima)/* .`. Then I evaluated the relevant files and reverted any overrides (like README.md) with git. 
+Since we are using the default theme *"minima"*, I have copied all files from it with `cp -r $(bundle info --path minima)/* .`. Then I evaluated the relevant files and reverted any overrides (like README.md) with git.
 
 > Warning! The `cp` command above will override conflicting files. Only do this on a clean working tree, so you can revert unwanted changes.
 
@@ -50,13 +50,15 @@ To create a reusable container with a left and right (for big screen) like the [
 
 ## Roadmap
 
-For the moment, I will simply apply the color and minimal layout changes. Then the layouts need to be planned. I think that the reusable pieces will come from those. 
+For the moment, I will simply apply the color and minimal layout changes. Then the layouts need to be planned. I think that the reusable pieces will come from those.
 
 **Use a drawing software** to visualize the goal, before writing HTML/CSS. ~~I sometimes skip this and end up spend more time stupidly.~~
 
 ## Next
 
-[ ] Make the border's in $on_palm **smaller** 
+[ ] Make the border's in $on_palm **smaller**
+
+[ ] Remove the side padding from .wrapper in nav header and footer (change from *"15px"* to *"15px 0px"*)
 
 ### [-] Minimal layout changes - based on [resume]
 
