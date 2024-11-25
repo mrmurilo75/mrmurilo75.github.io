@@ -12,14 +12,14 @@ In a world ruled by algorithms, where 'subscribing' to a channel on youtube or '
 
 ### Courses
 
-[curso.dev](https://curso.dev/) - Course with the amazing Felipe Deschamps
-[Alura Brazil](https://cursos.alura.com.br/) - A tech school from Brazil
+- [curso.dev](https://curso.dev/) - Course with the amazing Felipe Deschamps
+- [Alura Brazil](https://cursos.alura.com.br/) - A tech school from Brazil
 
 ## Books
 
 ### Current reads
 
-Waking Up - by Sam Harris
+- Waking Up - by Sam Harris
 
 ## News
 
@@ -39,3 +39,5 @@ Waking Up - by Sam Harris
 ---
 
 - [TabNews.com.br](https://tabnews.com.br) (Social Network for Developers in Brazil)
+
+- [Codepip](https://codepip.com/) - A site to learn CSS (mostly) / JS / HTML in a **gamified** way
