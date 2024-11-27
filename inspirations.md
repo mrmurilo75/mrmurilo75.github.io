@@ -41,3 +41,7 @@ In a world ruled by algorithms, where 'subscribing' to a channel on youtube or '
 - [TabNews.com.br](https://tabnews.com.br) (Social Network for Developers in Brazil)
 
 - [Codepip](https://codepip.com/) - A site to learn CSS (mostly) / JS / HTML in a **gamified** way
+
+---
+
+- [Fabio Akita at DevParana](https://www.youtube.com/watch?v=YMhTcQTNrm8&t=1627s)
