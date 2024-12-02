@@ -4,16 +4,20 @@ category: discussion
 project: s4ge
 date: 2024-12-02
 ---
+[Urubu]: https://urubu.jandecaluwe.com/
 [yaml-intro]: https://www.yaml.info/learn/index.html
 
 ## Inspirations
 
+* [Urubu]
 * MVC / MVT Architecture
 * Jekyll uses - like [al-folio]
 * Use-cases:
     * [My personal site][personal-blog]
     * A portifolio / resume site (like [my lovely designer's][loi-portifolio-figma])
     * A customized static site generator (you upload source material, like images and markdown, into a configured instance and it spits out a site applying templates)
+
+> It turns out I have come up with the same solution as [Urubu]. Looking at their docs they came up with **Markdown content with Jinja2** that's then **rendered into a Jinja2 HTML template**.
 
 ### The hard part
 
@@ -122,3 +126,7 @@ _config.yml
 
 # everything else
 ```
+
+---
+
+if it were to be just a tiny CMS like usetinycms.com it wouldnt be able to provide links or context either. The way to do this would be like in jekyll, where they extend the Liquid templating engine with their own custom tags and context.
