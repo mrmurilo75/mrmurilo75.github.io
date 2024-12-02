@@ -1,8 +1,8 @@
 ---
-layout: page
-title: Static Site Generator
-category: index
-project: static-site-generator
+title: Inception
+category: discussion
+project: s4ge
+date: 2024-11-25
 ---
 [commonmark]: https://commonmark.org/
 [Jinja2]: https://jinja.palletsprojects.com/en/stable/
