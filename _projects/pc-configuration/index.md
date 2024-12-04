@@ -5,31 +5,128 @@ category: index
 project: pc-config
 ---
 [omakube]: https://omakub.org/
-[caps-swap-escape]: {% link _projects/pc-configuration/2024-11-04-caps-swap-escape.md %}
-[maximizing linux battery life]: https://thelinuxcode.com/15-tips-improve-laptop-battery-life/
-[reddit linux battery]: https://www.reddit.com/r/linux4noobs/comments/zdjqc9/battery_life_on_linux_sucks_out_of_the_box_i_got/
-[github-jcchikkikomori-matebook-d15]: https://github.com/jcchikikomori/linux-on-huawei-matebook-d15-2021/tree/master
+[ohmyzsh]: https://ohmyz.sh/
+[ohmyzsh-docs]: https://github.com/ohmyzsh/ohmyzsh/wiki
+[caps-swap-escape]: {% link _projects/pc-configuration/reports/2024-11-04-caps-swap-escape.md %}
 
 
-This project is the monitoring and tracking of changes and investigations I make while tweaking my personal setup.
+## Exploration
 
-I am a fan of Unix and Unix-like systems. I like changing OS not only because I can try new work flows but because I am a cleaning freak, even when it comes to my systems. Said that, I need an easy and realiable process to have my system up and running as fast as possible.
+- [ ] checkout [omakube] for a ready-made config.
 
-## Current State
+### Terminal
 
-I am currently using a Huawei Laptop - the Matebook D15. I already found that battery life is a common issues, as well as some missing drivers. I could not find the sound card drivers anywhere, but since I use bluetooth headphones, I am not too worried.
+- [ ] checkout [Oh My Zsh][ohmyzsh] for a pre-configured terminal
+    - [ ] checkout [docs][ohmyzsh-docs] for relevant features
 
-I have found [this github repo][github-jcchikkikomori-matebook-d15] for this exact model, that tracks relevant information and contains some util scripts.
+- [ ] tmux - checkout from negligent-octopus project notes
 
-## Planned work
+## To be Planned
 
-[-] Investigate battery optmizations 
-* See this article on [maximizing linux battery life]
-* And this [reddit post][reddit linux battery]
+* A pdf reader
+* A note taking app with support for drawing tablet
 
-[X] Swap esc:caps at logon
-* DONE: [See details][caps-swap-escape]
+Candidate: **Xournal++**
 
-### Sub-Project
+---
 
-[ ] Configure development environment - Create dependencies install scripts (look at [omakube] and [bin-setup] for reference)
+## Current Setup
+
+### Navigation
+
+#### Browser:
+
+**Firefox**
+
+##### Extensions:
+
+###### Search:
+
+* [Brave Search](https://addons.mozilla.org/en-US/firefox/addon/brave-search/)
+
+###### Password Manager:
+
+* [Bitwarden Password Manager](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+
+###### Ad Blocking:
+
+* [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+* [AdGuard AdBlocker](https://addons.mozilla.org/en-US/firefox/addon/adguard-adblocker/)
+* [PopUpOFF - Popup and overlay blocker](https://addons.mozilla.org/en-US/firefox/addon/popupoff/)
+
+###### Tab & Session Management
+
+* [Tab Session Manager](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/)
+* [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+
+### Development
+
+**Github CodeSpaces**
+
+#### Plugin (project independent)
+
+* [Vim by vscodevim](https://marketplace.visualstudio.com/items?itemName=vscodevim.Vim)
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+### Terminal
+
+**bash** (Pop!OS built-in)
+
+#### Additional packages:
+
+##### APT
+
+* [silversearch-ag](https://github.com/ggreer/the_silver_searcher)
+* tmux
+* nvim
+
+> These will be elaborated when in-use for development.
+
+### Configuration
+
+#### Keyboard
+
+* Use **English (Canada)**
+* Swap CAPS with ESC - [see more][caps-swap-escape]
+
+---
+
+### Discussions
+
+{% assign discussions = site.projects | where: "project", page.project | where: "category", "discussion" %}
+
+#### Open
+
+{% assign is_open = discussions | where: "open", true %}
+{% for discussion in is_open %}
+* [{{discussion.title}}]({{discussion.url}})
+{% endfor %}
+
+#### Closed
+
+{% assign closed = discussions | where: "open", false %}
+{% for discussion in closed %}
+* [{{discussion.title}}]({{discussion.url}})
+{% endfor %}
+
+---
+
+## Monitoring
+
+### Logs
+
+{% assign logs = site.projects | where: "project", page.project | where: "category", "log" %}
+{% for log in logs %}
+* [{{ log.date | date: "%Y-%m-%d" }} {{log.title}}]({{log.url}})
+{% endfor %}
+
+---
+
+## Review
+
+### Reports
+
+{% assign reports = site.projects | where: "project", page.project | where: "category", "report" %}
+{% for report in reports %}
+* [{{ report.date | date: "%Y-%m-%d" }} \| {{report.title}}]({{report.url}})
+{% endfor %}
