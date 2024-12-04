@@ -8,6 +8,7 @@ project: s4ge
 [personal-blog]: https://mrmurilo75.github.io/
 [loi-portifolio-figma]: https://www.figma.com/proto/FbKcPFdBjrpp9hY66bOmhF/Portf%C3%B3lio-UX%2FUI?node-id=104-16&t=ULM5E8Qq4uNlbdiv-1
 [al-folio]: https://github.com/alshedivat/al-folio
+[gh-actions-jekyll-run]: https://github.com/mrmurilo75/mrmurilo75.github.io/actions/runs/12022286759/workflow
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -24,48 +25,26 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 
 ---
 
+## Ideias
+
+* The context and tags available for the user to use on the source should be heavily limited, for security purposes.
+* See **[a Github Actions file][gh-action-jekyll-run]** for inspirations on the config file format
+* To learn more about yaml checkout [yaml.info](https://www.yaml.info/learn/index.html)
+
 ## Inspirations
 
+* [Urubu]
 * MVC / MVT Architecture
 * Jekyll uses - like [al-folio]
 * Use-cases:
     * [My personal site][personal-blog]
     * A portifolio / resume site (like [my lovely designer's][loi-portifolio-figma])
     * A customized static site generator (you upload source material, like images and markdown, into a configured instance and it spits out a site applying templates)
+* [usetinycms]
+    * What we are trying to acomplish is somewhat the "engine" behind this. Except for the writting and the sql (which in our case is the file system), what we are trying to acomplish is the same. We could on top of this build system, have a wysiwyg web-based editor, and have a CI/CD implemented when a user "publishes" a script, which means writing for a buffer structure into the file.
+    * The problem with this is that the "fields" (like main content, title, etc are pre-configured). The pure markdown cannot link to another article without hard linking of live. Advanced function, like listing all post linked to an author, are only doable if pre-implemented or using a templating engine, like Jekyl uses Liquid and extends it.
 
-### The hard part
-
-What I'm struggling with the most is figuring out how to connect things in source. Like in my own site, I want to list project's which are a subdirectory.
-
-### The simplest setup
-
-Would be for a personal site like my own. Add source markdown with Jinja2 that requires context on the file structure.
-
-So theres a pre-process context gathering, then render Jinja2 markdown, then render HTML from configured Jinja2 templates.
-
----
-
-## Planning
-
-### Scope
-
-### Roadmap
-
-**version 0.1.0**:
-
-* source in `_source/` written in markdown with Jinja2
-* midway markdown in `_prerender/`
-* final render applying templates in `_output/`
-
-**Which templates to apply for final rendering?**
-
-Replicate the file structure in `_config.yml` to define templates in a cascading matter.
-
-#### Next Tasks
-
-#### To Be Planned
-
-#### Done
+> It turns out I have come up with the same solution as [Urubu]. Looking at their docs they came up with **Markdown content with Jinja2** that's then **rendered into a Jinja2 HTML template**.
 
 ---
 
