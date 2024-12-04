@@ -13,7 +13,7 @@ open: true
 [reStructuredText-nikola]: https://getnikola.com/quickstart.html
 [reStrcturedText-official-reference]: https://docutils.sourceforge.io/docs/user/rst/quickref.html
 [pelican-docs]: https://docs.getpelican.com/en/latest/
-[static-site-generator-index]: {% link _projects/static-site-generator.md %}
+[static-site-generator-index]: {% link _projects/s4ge-static-site-generator/index.md %}
 
 
 ## Conclusion
