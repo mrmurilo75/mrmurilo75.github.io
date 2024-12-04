@@ -6,6 +6,10 @@ date: 2024-12-02
 ---
 [Urubu]: https://urubu.jandecaluwe.com/
 [yaml-intro]: https://www.yaml.info/learn/index.html
+[usetinycms]: https://usetinycms.com/
+
+
+**2024-12-02**
 
 ## Inspirations
 
@@ -16,6 +20,9 @@ date: 2024-12-02
     * [My personal site][personal-blog]
     * A portifolio / resume site (like [my lovely designer's][loi-portifolio-figma])
     * A customized static site generator (you upload source material, like images and markdown, into a configured instance and it spits out a site applying templates)
+* [usetinycms]
+    * What we are trying to acomplish is somewhat the "engine" behind this. Except for the writting and the sql (which in our case is the file system), what we are trying to acomplish is the same. We could on top of this build system, have a wysiwyg web-based editor, and have a CI/CD implemented when a user "publishes" a script, which means writing for a buffer structure into the file.
+    * The problem with this is that the "fields" (like main content, title, etc are pre-configured). The pure markdown cannot link to another article without hard linking of live. Advanced function, like listing all post linked to an author, are only doable if pre-implemented or using a templating engine, like Jekyl uses Liquid and extends it.
 
 > It turns out I have come up with the same solution as [Urubu]. Looking at their docs they came up with **Markdown content with Jinja2** that's then **rendered into a Jinja2 HTML template**.
 
@@ -53,8 +60,6 @@ The root of a folder can have a file `_config.yml` that defines
 
 As it makes sense for a static site, routing is file based. Therefore, it makes sense that the configuration is based on the file structure!
 
-k
-
 Key words at the leaf will actually determine the configuration. Multiple files formats can be used for the configuration, but for me its easier to think of json.
 
 Start with a mapping
@@ -77,6 +82,8 @@ Start with a mapping
 
 Underscoring is a way to reserve words in the configuration. Avoid underscoring filenames.
 
+> I mean "underscoring" as adding an underscore to the beginning, like "_source".
+
 The configuration is based on the folder structure
 
 the root level applies to the root level of the source folder
@@ -96,8 +103,6 @@ define the processes by listing them
 For more yaml info checkout [this introduction][yaml-intro]
 
 ---
-
-**2024-12-02**
 
 Scope:
 
@@ -126,7 +131,3 @@ _config.yml
 
 # everything else
 ```
-
----
-
-if it were to be just a tiny CMS like usetinycms.com it wouldnt be able to provide links or context either. The way to do this would be like in jekyll, where they extend the Liquid templating engine with their own custom tags and context.
