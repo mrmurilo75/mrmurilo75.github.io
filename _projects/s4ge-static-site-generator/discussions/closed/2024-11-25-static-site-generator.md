@@ -3,6 +3,7 @@ title: Inception
 category: discussion
 project: s4ge
 date: 2024-11-25
+open: false
 ---
 [commonmark]: https://commonmark.org/
 [Jinja2]: https://jinja.palletsprojects.com/en/stable/
