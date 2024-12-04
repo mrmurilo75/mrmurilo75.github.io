@@ -5,10 +5,13 @@ category: index
 project: s4ge
 ---
 [s4ge]: https://github.com/mrmurilo75/s4ge-static-site-generator
+[gh-actions-jekyll-run]: https://github.com/mrmurilo75/mrmurilo75.github.io/actions/runs/12022286759/workflow
+[yaml-info]: https://www.yaml.info/learn/index.html
+[Urubu]: https://urubu.jandecaluwe.com/
+[al-folio]: https://github.com/alshedivat/al-folio
 [personal-blog]: https://mrmurilo75.github.io/
 [loi-portifolio-figma]: https://www.figma.com/proto/FbKcPFdBjrpp9hY66bOmhF/Portf%C3%B3lio-UX%2FUI?node-id=104-16&t=ULM5E8Qq4uNlbdiv-1
-[al-folio]: https://github.com/alshedivat/al-folio
-[gh-actions-jekyll-run]: https://github.com/mrmurilo75/mrmurilo75.github.io/actions/runs/12022286759/workflow
+[usetinycms]: https://usetinycms.com
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -28,8 +31,8 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 ## Ideias
 
 * The context and tags available for the user to use on the source should be heavily limited, for security purposes.
-* See **[a Github Actions file][gh-action-jekyll-run]** for inspirations on the config file format
-* To learn more about yaml checkout [yaml.info](https://www.yaml.info/learn/index.html)
+* See **[a Github Actions file][gh-actions-jekyll-run]** for inspirations on the config file format
+* To learn more about yaml checkout [yaml.info][yaml-info]
 
 ## Inspirations
 
