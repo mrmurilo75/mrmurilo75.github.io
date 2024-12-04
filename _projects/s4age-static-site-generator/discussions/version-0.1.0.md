@@ -7,7 +7,87 @@ date: 2024-12-02
 [Urubu]: https://urubu.jandecaluwe.com/
 [yaml-intro]: https://www.yaml.info/learn/index.html
 [usetinycms]: https://usetinycms.com/
+[Make]: https://www.gnu.org/software/make/
+[doit]: https://pydoit.org/
+[gh-actions-jekyll-run]: https://github.com/mrmurilo75/mrmurilo75.github.io/actions/runs/12022286759/workflow
+[mistletoe]: https://github.com/miyuchina/mistletoe
+[commonmark-implementations]: https://github.com/commonmark/commonmark-spec/wiki/list-of-commonmark-implementations
+[Jinja2]: https://jinja.palletsprojects.com/en/stable/
 
+
+## Conclusion
+
+Run a **build process** on a source, producing an output. Therefore the best tool for the job is **build tool**, like [Make]. However, since we want to keep things in the Python world we'll use **[doit]**.
+
+### Target Workflow - for version 0.1.0
+
+For the moment being we'll focus on a simplified workflow.
+
+1. Source in **pure markdown**.
+2. Templates in Jinja2.
+3. No extra context (config or data file).
+
+Source material is placed in the `_source/` folder. Filetypes other than '.md' are simply replicated in destination. Because of this, links can use the relative path or the root as the source directory. In case of '.md' files, the extensions is replaced with '.html'.
+
+For example, if you have:
+```bash
+_source/
+    ├── index.md
+    └── images/
+        └── herbs.png
+_templates/...
+```
+
+You could add the image in `index.md` by adding:
+
+```markdown
+...
+![Herbs on fire](/images/herbs.png)
+...
+```
+
+The default output folder is `_site/`. This makes it compatible with existing [Github Actions template for Jekyll][gh-actions-jekyll-run]. The only step that requires override is 'Build with Jekyll' to our own build command.
+
+Given the above example, the result after build would be:
+```bash
+_source/
+    ├── index.md
+    └── images/
+        └── herbs.png
+_site/
+    ├── index.html
+    └── images/
+        └── herbs.png
+_templates/...
+```
+
+### Known Limitations
+
+Given this setup, anything beyond pure markdown is required to be implemented directly in the templates.
+
+### Tools
+
+#### Build Tools
+
+* **[doit]**
+
+#### Markdown Processor
+
+* **[mistletoe]**
+
+> Since this is planned to be configurable, it could be any the [commonmark implementations][commonmark-implementations]. Mistletoe was chosen for its rendering options, which could be a config option.
+
+#### Templating Engine
+
+* **[Jinja2]**
+
+---
+
+**2024-12-03**
+
+> See conclusion above
+
+---
 
 **2024-12-02**
 
