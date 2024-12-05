@@ -31,7 +31,7 @@ For the moment being we'll focus on a simplified workflow.
 2. Templates in Jinja2.
 3. No extra context (config or data file).
 
-Source material is placed in the `_source/` folder. Filetypes other than '.md' are simply replicated in destination. Because of this, links can use the relative path or the root as the source directory. In case of '.md' files, the extensions is replaced with '.html'.
+Source material is placed in the `_source/` folder. Filetypes other than '.md' are simply replicated in destination. Because of this, links can use the relative path. In case of '.md' files, the extensions is replaced with '.html'.
 
 For example, if you have:
 ```bash
@@ -46,7 +46,7 @@ You could add the image in `index.md` by adding:
 
 ```markdown
 ...
-![Herbs on fire](/images/herbs.png)
+![Herbs on fire](images/herbs.png)
 ...
 ```
 
