@@ -14,7 +14,7 @@ open: true
 [mistletoe]: https://github.com/miyuchina/mistletoe
 [commonmark-implementations]: https://github.com/commonmark/commonmark-spec/wiki/list-of-commonmark-implementations
 [Jinja2]: https://jinja.palletsprojects.com/en/stable/
-[related-log]: {% link _projects/s4ge-static-site-generator/logs/2024-12-03-version-0.1.0.md %}
+[related-log]: {% link _projects/s4ge-static-site-generator/logs/2024-12-03-proof-of-concept.md %}
 
 
 ## Conclusion
