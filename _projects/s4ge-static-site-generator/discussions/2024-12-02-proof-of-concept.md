@@ -1,5 +1,5 @@
 ---
-title: Version 0.1.0
+title: Proof Of Concept
 category: discussion
 project: s4ge
 date: 2024-12-02
@@ -86,6 +86,10 @@ Given this setup, anything beyond pure markdown is required to be implemented di
 * **[Jinja2]**
 
 ---
+
+**2024-12-05**
+
+> Rename to Proof Of Concept
 
 **2024-12-03**
 

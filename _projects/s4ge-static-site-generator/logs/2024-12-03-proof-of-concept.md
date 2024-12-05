@@ -1,5 +1,5 @@
 ---
-title: Implementation of version 0.1.0
+title: Proof Of Concept
 project: s4ge
 category: log
 date: 2024-12-05
