@@ -61,7 +61,8 @@ Candidate: **Xournal++**
 
 ### Development
 
-**Github CodeSpaces**
+* Browser-based: **Github CodeSpaces**
+* Local: **VS Code**
 
 #### Plugin (project independent)
 
