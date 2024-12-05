@@ -32,7 +32,7 @@ Get started by reading [the discussion][source-discussion]. From there create, r
     - [X] 1. Parse Markdown to HTML - outputs to `_rendered`
     - [X] 2. Apply to Jinja2 templates - outputs to `_site`
     - [X] 3. Write build process with **doit**
-- [ ] Test with Github Actions (based on jekyll's)
+- [X] Test with Github Actions (based on jekyll's)
 
 ---
 
@@ -90,10 +90,21 @@ with open(DESTINATION, 'w') as fout:
 The default file for **task-creators** function is `dodo.py`:
 
 ```python
-def task_render_site(): # Task 'render_site'
+def task_render_site(): # Task to render final site
     return {
         'actions': ['python3 app.py'],
+    }
+
+def task_copy_resources(): # Task to copy resources from source
+    source_dir = '_source/'
+    destination_dir = '_site/'
+    return {
+        'actions': [f'rsync -a --exclude="*.md" --delete {source_dir}* {destination_dir}'],
     }
 ```
 
 To execute the task, run the `doit` command (without arguments it executes all tasks in the `dodo.py` file).
+
+#### Github Actions deploy
+
+A workflow has been created with [Jekyll's file][gh-actions-jekyll-run] as reference. The setup uses [setup-python] action with pip cache, and the build step has been replaced with the command `doit`.
