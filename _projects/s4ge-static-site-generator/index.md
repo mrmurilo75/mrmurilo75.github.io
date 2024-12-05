@@ -12,6 +12,7 @@ project: s4ge
 [personal-blog]: https://mrmurilo75.github.io/
 [loi-portifolio-figma]: https://www.figma.com/proto/FbKcPFdBjrpp9hY66bOmhF/Portf%C3%B3lio-UX%2FUI?node-id=104-16&t=ULM5E8Qq4uNlbdiv-1
 [usetinycms]: https://usetinycms.com
+[s4ge-poc-commit]: https://github.com/mrmurilo75/s4ge-static-site-generator/commit/05fb6f0239946279873641da4a4faa3661742b29
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -25,6 +26,18 @@ A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTM
 There are no solutions written in Python that are simply a static site generator! The available options are focused on blogging and architected for it. If there's your goal, you might want to check them out.
 
 The goal of this project is to be a light-weight and extensible solution. Simply **process your source** then **output a website**!
+
+---
+
+## Status
+
+* **Proof Of Concept** is now **deployed**! Check out the [final commit][s4ge-poc-commit] and see [deployed example][s4ge-deployed] (might be of a later version).
+
+### Continue at:
+
+- [ ] Create discussion for MVC
+    - Create a Jekyll compatible version
+    - Migrate [personal blog][personal-blog] to it
 
 ---
 
