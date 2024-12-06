@@ -10,6 +10,8 @@ date: 2024-11-22
 [dn-registrar]: https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/
 [registro.br]: https;//registro.br
 [nic.br]:https://nic.br/atividades/
+[BIND]: https://en.wikipedia.org/wiki/BIND
+[GeoDNS]: https://en.wikipedia.org/wiki/GeoDNS
 
 
 ## Domain Name System
@@ -37,7 +39,11 @@ Each lookup in this process is cached for performance improvements, with a time-
 
 To register a domain, you need to contact a **[domain name registrar][dn-registrar]**, which will leverage the registration in the **registry** with the entity that manages the TLD. For example, when you request a domain from [registro.br] (a registrar) it will contact [nic.br], the entity responsible for the ccTLD '.br'.
 
-It's important to note that the **registry** will contain the directions for an **Authoritative Server**, the *DNS Server* that holds our *DNS Records*. We can manage our own DNS Server, or use a provider's, like Cloudflare's or Vercel's.
+It's important to note that the **registry** will contain the directions for an **Authoritative Server**, the *DNS Server* that holds our *DNS Records* (also called *Authoritative* **NameServer**). We can manage our own DNS Server, or use a provider's, like Cloudflare's or Vercel's. Either way, if we use a *name server* other than the registrar's, we'll have to configure it within the registrar interface.
+
+Lastly, we add the records to the *DNS Server*. This means, add the actual "contact information" in our "contact card".
+
+> It's important to notice that an *Authoritative NameServer* is **just a server**, running a software for a specific purpose (like [BIND]). It can delegate the resolution to yet another server, and so on (It's **recursive**!). This way it can have features like [GeoDNS].
 
 ---
 
@@ -50,5 +56,6 @@ As our "contact card" would have multiple contact information (like multiple pho
 ---
 
 ## Related Issues
+
 
 
