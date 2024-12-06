@@ -1,5 +1,5 @@
 ---
-title: Day 11 - DNS
+title: Day 11 & 12 - DNS
 category: class-note
 project: curso-dev
 date: 2024-11-22
@@ -7,6 +7,9 @@ date: 2024-11-22
 [curso-dev-ip-lookup]: https://dnschecker.org/domain-ip-lookup.php?query=curso.dev
 [iana-domains-db]: https://iana.org/domains/root/db/
 [1.1.1.1]: https://one.one.one.one/dns/
+[dn-registrar]: https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name-registrar/
+[registro.br]: https;//registro.br
+[nic.br]:https://nic.br/atividades/
 
 
 ## Domain Name System
@@ -27,3 +30,25 @@ Based on the domain's suffix, the **root server** will point to the responsible 
 The machine responsible for dealing with these requests is called **Recursive Resolver**. It can be provided by the ISP (Internet Service Provider), or by an entity like Cloudflare's [1.1.1.1].
 
 Each lookup in this process is cached for performance improvements, with a time-based reevaluation - this is a *cache invalidation* strategy called **T**ime **T**o **L**ive (**TTL**).
+
+---
+
+## Registration
+
+To register a domain, you need to contact a **[domain name registrar][dn-registrar]**, which will leverage the registration in the **registry** with the entity that manages the TLD. For example, when you request a domain from [registro.br] (a registrar) it will contact [nic.br], the entity responsible for the ccTLD '.br'.
+
+It's important to note that the **registry** will contain the directions for an **Authoritative Server**, the *DNS Server* that holds our *DNS Records*. We can manage our own DNS Server, or use a provider's, like Cloudflare's or Vercel's.
+
+---
+
+## DNS Records
+
+As our "contact card" would have multiple contact information (like multiple phone numbers, email, and address), our *DNS Record* will have multiple records of different types.
+
+> These will be elaborated further in a future note.
+
+---
+
+## Related Issues
+
+
