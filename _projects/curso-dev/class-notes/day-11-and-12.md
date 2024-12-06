@@ -41,9 +41,10 @@ To register a domain, you need to contact a **[domain name registrar][dn-registr
 
 It's important to note that the **registry** will contain the directions for an **Authoritative Server**, the *DNS Server* that holds our *DNS Records* (also called *Authoritative* **NameServer**). We can manage our own DNS Server, or use a provider's, like Cloudflare's or Vercel's. Either way, if we use a *name server* other than the registrar's, we'll have to configure it within the registrar interface.
 
+It's important to notice that an *Authoritative NameServer* is **just a server**, running a software for a specific purpose (like [BIND]). It can delegate the resolution to yet another server, and so on (It's **recursive**!). This way it can have features like [GeoDNS].
+
 Lastly, we add the records to the *DNS Server*. This means, add the actual "contact information" in our "contact card".
 
-> It's important to notice that an *Authoritative NameServer* is **just a server**, running a software for a specific purpose (like [BIND]). It can delegate the resolution to yet another server, and so on (It's **recursive**!). This way it can have features like [GeoDNS].
 
 ---
 
