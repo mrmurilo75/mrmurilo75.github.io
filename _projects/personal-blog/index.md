@@ -22,7 +22,7 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 * Planning and tracking projects
 * Note-taking
-* Create reference for repeatable tasks 
+* Create reference for repeatable tasks
 * Reference inspirations
 * Software agnostic - content needs to be visible and understandable as plain text
 
@@ -46,13 +46,18 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 ##### Posts
 
+[ ] Configuring Github Pages on custom domain
+
 [ ] Git Usage + CheatSheet - based on [these notes][curso-dev_day-5-and-6] from curso-dev
 
 [ ] Gamification of Progress - based on curso-dev notes on [Planning & Tracking][curso-dev_day-8-and-9]
 
 #### Done
 
+[X] Configure custom domain
+
 [X] [CV Page][resume]
+
 [X] [CV Page in Portuguese][resume]
 
 ---
