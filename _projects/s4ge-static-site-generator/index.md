@@ -14,6 +14,7 @@ project: s4ge
 [usetinycms]: https://usetinycms.com
 [s4ge-poc-commit]: https://github.com/mrmurilo75/s4ge-static-site-generator/commit/05fb6f0239946279873641da4a4faa3661742b29
 [s4ge-deployed]: https://mrmurilo75.github.io/s4ge-static-site-generator/
+[Obsidian]: https://obsidian.md/
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -47,6 +48,12 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 * The context and tags available for the user to use on the source should be heavily limited, for security purposes.
 * See **[a Github Actions file][gh-actions-jekyll-run]** for inspirations on the config file format
 * To learn more about yaml checkout [yaml.info][yaml-info]
+
+### Future Features
+
+* Precision linking (kinda like how the bible has passages that can be refered with precision. MVC would be linking on hX tags - this requires a tags)
+* Backlinkg (Optional)
+* Generated Graph of connection (like [Obsidian])
 
 ## Inspirations
 
