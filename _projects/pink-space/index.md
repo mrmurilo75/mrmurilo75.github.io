@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Personal Blog
+title: Pink Space - My personal website
 category: index
-project: personal-blog
+project: pink-space
 ---
 [welcome-to-jekyll]: {% link _posts/2024-09-17-welcome-to-jekyll---by-me.md %}
 [resume]: {% link resume.html %}
 [curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
 [curso-dev_day-8-and-9]: {% link _projects/curso-dev/class-notes/day-8-and-9.md %}
-[custom-layout_log]: {% link _projects/personal-blog/log/2024-11-15-custom-layout.md %}
-[notebook-notes-groups_log]: {% link _projects/personal-blog/log/2024-11-15-notebook-notes-groups.md %}
+[custom-layout_log]: {% link _projects/pink-space/log/2024-11-15-custom-layout.md %}
+[notebook-notes-groups_log]: {% link _projects/pink-space/log/2024-11-15-notebook-notes-groups.md %}
 
 
 ## Planning

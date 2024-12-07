@@ -9,7 +9,7 @@ project: s4ge
 [yaml-info]: https://www.yaml.info/learn/index.html
 [Urubu]: https://urubu.jandecaluwe.com/
 [al-folio]: https://github.com/alshedivat/al-folio
-[personal-blog]: https://mrmurilo75.github.io/
+[pink-space]: https://mrmurilo75.github.io/
 [loi-portifolio-figma]: https://www.figma.com/proto/FbKcPFdBjrpp9hY66bOmhF/Portf%C3%B3lio-UX%2FUI?node-id=104-16&t=ULM5E8Qq4uNlbdiv-1
 [usetinycms]: https://usetinycms.com
 [s4ge-poc-commit]: https://github.com/mrmurilo75/s4ge-static-site-generator/commit/05fb6f0239946279873641da4a4faa3661742b29
@@ -38,7 +38,7 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 
 - [ ] Create discussion for MVC
     - Create a Jekyll compatible version
-    - Migrate [personal blog][personal-blog] to it
+    - Migrate [personal website][pink-space] to it
 
 ---
 
@@ -54,7 +54,7 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 * MVC / MVT Architecture
 * Jekyll uses - like [al-folio]
 * Use-cases:
-    * [My personal site][personal-blog]
+    * [My personal site][pink-space]
     * A portifolio / resume site (like [my lovely designer's][loi-portifolio-figma])
     * A customized static site generator (you upload source material, like images and markdown, into a configured instance and it spits out a site applying templates)
 * [usetinycms]

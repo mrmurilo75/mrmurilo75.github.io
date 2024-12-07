@@ -1,6 +1,6 @@
 ---
 title: Notebook Note Groups
-project: personal-blog
+project: pink-space
 category: log
 ---
 
@@ -22,9 +22,9 @@ Following suite with the *projects* structuring, we'll use the *"index"* to mark
 
 ## Conclusion
 
-* In the Notebook listing: 
+* In the Notebook listing:
     * Filter notes with *category* **index***
-    * List in two section: 
+    * List in two section:
         * **Notes** - If *"notebook"* front-matter null
         *  and **Notebooks** - otherwise
 * Update structure [discussion] with this **Inception**

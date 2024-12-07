@@ -1,6 +1,6 @@
 ---
 title: Custom Layout
-project: personal-blog
+project: pink-space
 category: log
 ---
 [resume]: {% link resume.html %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating Collections
-project: personal-blog
+project: pink-space
 category: report back-log
 ---
 

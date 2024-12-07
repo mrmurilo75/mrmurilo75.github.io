@@ -105,7 +105,7 @@ Given this setup, anything beyond pure markdown is required to be implemented di
 * MVC / MVT Architecture
 * Jekyll uses - like [al-folio]
 * Use-cases:
-    * [My personal site][personal-blog]
+    * [My personal site][pink-space]
     * A portifolio / resume site (like [my lovely designer's][loi-portifolio-figma])
     * A customized static site generator (you upload source material, like images and markdown, into a configured instance and it spits out a site applying templates)
 * [usetinycms]

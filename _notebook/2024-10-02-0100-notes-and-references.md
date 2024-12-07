@@ -1,14 +1,14 @@
 ---
 title: Thoughts on this project and references
 ---
-[next-step]: {% link _projects/personal-blog/index.md %}
+[next-step]: {% link _projects/pink-space/index.md %}
 [jekyll-docs-collections-output]: https://jekyllrb.com/docs/step-by-step/09-collections/#output-a-page
 [andrewwhipple]: https://andrewwhipple.com
 [DHH-with-prime-and-deej]: https://m.youtube.com/watch?v=mTa2d3OLXhg
 [omakube]: https://omakub.org/
 [desipenguin-blog]: https://microblog.desipenguin.com/
 [desipenguin-en-post]: https://microblog.desipenguin.com/post/e-n-style-blog/
-[reestructuring]: {% link _projects/personal-blog/discussions/2024-10-10-2334-structure.md %}
+[reestructuring]: {% link _projects/pink-space/discussions/2024-10-10-2334-structure.md %}
 [notebook]: {% link notebook.md %}
 
 
@@ -30,7 +30,7 @@ A lot to think about for next projects: [Video podcast of DHH (Ruby on Rails) wi
 * Try things out, just do it
 * Contributing to open source seems nice - a exchange of gifts: I can do this, and other people do what they can
 
-Related to the [video with DHH][DHH-with-prime-and-deej] as well is [Omakube, by DHH][omakube] - this is not only something that is in line with what I tried to do before with my [bin setup repo]() but also is beutiful. I'd love to have something that looks like this. 
+Related to the [video with DHH][DHH-with-prime-and-deej] as well is [Omakube, by DHH][omakube] - this is not only something that is in line with what I tried to do before with my [bin setup repo]() but also is beutiful. I'd love to have something that looks like this.
 
 
 Also with surfing about Omakub I found [this blog][desipenguin-blog] from a software developer as well, and that has to amazing things:
