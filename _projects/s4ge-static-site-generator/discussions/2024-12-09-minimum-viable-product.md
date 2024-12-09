@@ -7,7 +7,7 @@ open: true
 ---
 [related-log]: {% link _projects/s4ge-static-site-generator/logs/2024-12-09-mvp.md %}
 [urubu-html-on-md]: https://urubu.jandecaluwe.com/manual/templating-in-pages.html
-[discussion-configuration]: {% link _projects/s4ge-static-site-generator}
+[discussion-configuration]: {% link _projects/s4ge-static-site-generator %}
 
 
 ## Conclusion
