@@ -15,10 +15,6 @@ date: 2024-12-05
 
 > See the [related commits][related-commits]
 
-### Continue at:
-
-- [ ] Test with Github Actions (based on [jekyll's][gh-actions-jekyll-run])
-
 ---
 
 ## Getting Started
