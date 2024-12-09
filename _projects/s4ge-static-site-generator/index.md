@@ -9,6 +9,7 @@ project: s4ge
 [s4ge-poc-commit]: https://github.com/mrmurilo75/s4ge-static-site-generator/commit/05fb6f0239946279873641da4a4faa3661742b29
 [s4ge-deployed]: https://mrmurilo75.github.io/s4ge-static-site-generator/
 [inspirations]: {% link _projects/s4ge-static-site-generator/inspirations.md %}
+[log-mvp]: {% link _projects/s4ge-static-site-generator/logs/2024-12-09-mvp.md %}
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -33,7 +34,9 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 
 ### Continue at:
 
-- [ ] Create discussion for MVP
+- [ ] Implement MVP - Check [related log][log-mvp]
+
+- [X] Create discussion for MVP
     - Create a Jekyll compatible version
     - Migrate [personal website][pink-space] to it
 
