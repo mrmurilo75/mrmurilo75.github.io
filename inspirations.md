@@ -45,3 +45,5 @@ In a world ruled by algorithms, where 'subscribing' to a channel on youtube or '
 ---
 
 - [Fabio Akita at DevParana](https://www.youtube.com/watch?v=YMhTcQTNrm8&t=1627s)
+
+- [scivision.dev](https://www.scivision.dev/) - a very minimal blog from some developer, best usage of tags and categories
