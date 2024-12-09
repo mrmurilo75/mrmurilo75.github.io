@@ -13,6 +13,7 @@ project: s4ge
 [usetinycms]: https://usetinycms.com
 [Obsidian]: https://obsidian.md/
 [pelican-search]: https://github.com/pelican-plugins/search
+[urubu-template-contructs]: http://urubu.jandecaluwe.com/manual/templating-in-pages.html
 
 
 ## Ideias
@@ -23,6 +24,7 @@ project: s4ge
 
 ### Future Features
 
+* Add templates with simple things that can be included in source - see [urubu's feature][urubu-template-contructs]
 * Precision linking (kinda like how the bible has passages that can be refered with precision. MVC would be linking on hX tags - this requires a tags)
 * Backlinkg (Optional)
 * Generated Graph of connection (like [Obsidian])
