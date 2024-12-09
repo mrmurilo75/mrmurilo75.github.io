@@ -3,7 +3,7 @@ title: Proof Of Concept
 category: discussion
 project: s4ge
 date: 2024-12-02
-open: true
+open: false
 ---
 [Urubu]: https://urubu.jandecaluwe.com/
 [yaml-intro]: https://www.yaml.info/learn/index.html
