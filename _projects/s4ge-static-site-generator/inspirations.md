@@ -12,6 +12,7 @@ project: s4ge
 [loi-portifolio-figma]: https://www.figma.com/proto/FbKcPFdBjrpp9hY66bOmhF/Portf%C3%B3lio-UX%2FUI?node-id=104-16&t=ULM5E8Qq4uNlbdiv-1
 [usetinycms]: https://usetinycms.com
 [Obsidian]: https://obsidian.md/
+[pelican-search]: https://github.com/pelican-plugins/search
 
 
 ## Ideias
@@ -25,6 +26,7 @@ project: s4ge
 * Precision linking (kinda like how the bible has passages that can be refered with precision. MVC would be linking on hX tags - this requires a tags)
 * Backlinkg (Optional)
 * Generated Graph of connection (like [Obsidian])
+* Search - inspired by [pelican's][pelican-search]
 
 ## Inspirations
 
