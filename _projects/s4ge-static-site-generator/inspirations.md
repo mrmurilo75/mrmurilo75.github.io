@@ -22,6 +22,8 @@ project: s4ge
 * See **[a Github Actions file][gh-actions-jekyll-run]** for inspirations on the config file format
 * To learn more about yaml checkout [yaml.info][yaml-info]
 
+* One directive to be added to the project is that it should be able to be used as a documentation tool, like docutils
+
 ### Future Features
 
 * Add templates with simple things that can be included in source - see [urubu's feature][urubu-template-contructs]
