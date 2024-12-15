@@ -10,6 +10,7 @@ project: s4ge
 [s4ge-deployed]: https://mrmurilo75.github.io/s4ge-static-site-generator/
 [inspirations]: {% link _projects/s4ge-static-site-generator/inspirations.md %}
 [log-mvp]: {% link _projects/s4ge-static-site-generator/logs/2024-12-09-mvp.md %}
+[canceled-mvp]: {% link _projects/s4ge-static-site-generator/discussions/closed/2024-12-09-minimum-viable-product.md %}
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -20,9 +21,11 @@ A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTM
 
 ## Why another static site generator?
 
-There are no solutions written in Python that are simply a static site generator! The available options are focused on blogging and architected for it. If there's your goal, you might want to check them out.
+~~There are no solutions written in Python that are simply a static site generator! The available options are focused on blogging and architected for it. If there's your goal, you might want to check them out.~~
 
-The goal of this project is to be a light-weight and extensible solution. Simply **process your source** then **output a website**!
+~~The goal of this project is to be a light-weight and extensible solution. Simply **process your source** then **output a website**!~~
+
+Because I wanted to do it myself.
 
 ---
 
@@ -34,11 +37,7 @@ The goal of this project is to be a light-weight and extensible solution. Simply
 
 ### Continue at:
 
-- [ ] Implement MVP - Check [related log][log-mvp]
-
-- [X] Create discussion for MVP
-    - Create a Jekyll compatible version
-    - Migrate [personal website][pink-space] to it
+- [ ] Create a new log and discussion for development - based on [canceled mvp][canceled-mvp].
 
 ---
 
