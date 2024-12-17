@@ -1,7 +1,6 @@
 ---
 layout: page
 title: s4ge - Inspirations
-category: index
 project: s4ge
 ---
 [gh-actions-jekyll-run]: https://github.com/mrmurilo75/mrmurilo75.github.io/actions/runs/12022286759/workflow
