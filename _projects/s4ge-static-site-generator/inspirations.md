@@ -14,6 +14,9 @@ project: s4ge
 [pelican-search]: https://github.com/pelican-plugins/search
 [urubu-template-contructs]: http://urubu.jandecaluwe.com/manual/templating-in-pages.html
 [hugo-archtypes]: https://gohugo.io/content-management/archetypes/
+[mdBooks]: https://rust-lang.github.io/mdBook/index.html
+[gh-actions-wf-examples]: https://github.com/actions/starter-workflows/tree/main/pages/
+[Umami]: https://umami.is/
 
 
 ## Ideias
@@ -27,6 +30,8 @@ project: s4ge
 * Make it compatible with Obsidian md, so it can be used with the github plugin for sync and, as a side effect, it's up as a site.
 
 ### Future Features
+
+* Add Analytics with [Umami] - GDPR open source (and free?)
 
 * Add templates with simple things that can be included in source - see [urubu's feature][urubu-template-contructs]
 * Precision linking (kinda like how the bible has passages that can be refered with precision. MVC would be linking on hX tags - this requires a tags)
@@ -47,5 +52,9 @@ project: s4ge
 * [usetinycms]
     * What we are trying to acomplish is somewhat the "engine" behind this. Except for the writting and the sql (which in our case is the file system), what we are trying to acomplish is the same. We could on top of this build system, have a wysiwyg web-based editor, and have a CI/CD implemented when a user "publishes" a script, which means writing for a buffer structure into the file.
     * The problem with this is that the "fields" (like main content, title, etc are pre-configured). The pure markdown cannot link to another article without hard linking of live. Advanced function, like listing all post linked to an author, are only doable if pre-implemented or using a templating engine, like Jekyl uses Liquid and extends it.
+* [mbBooks]
+    * A supersimple SSG in rust - checkout its feature set
+* [Github Actions Workflows examples][gh-actions-wf-examples]
+    * Check these out for a better understanding of github actions ci
 
 > It turns out I have come up with the same solution as [Urubu]. Looking at their docs they came up with **Markdown content with Jinja2** that's then **rendered into a Jinja2 HTML template**.
