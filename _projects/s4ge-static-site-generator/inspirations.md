@@ -13,6 +13,7 @@ project: s4ge
 [Obsidian]: https://obsidian.md/
 [pelican-search]: https://github.com/pelican-plugins/search
 [urubu-template-contructs]: http://urubu.jandecaluwe.com/manual/templating-in-pages.html
+[hugo-archtypes]: https://gohugo.io/content-management/archetypes/
 
 
 ## Ideias
@@ -23,6 +24,8 @@ project: s4ge
 
 * One directive to be added to the project is that it should be able to be used as a documentation tool, like docutils
 
+* Make it compatible with Obsidian md, so it can be used with the github plugin for sync and, as a side effect, it's up as a site.
+
 ### Future Features
 
 * Add templates with simple things that can be included in source - see [urubu's feature][urubu-template-contructs]
@@ -30,6 +33,7 @@ project: s4ge
 * Backlinkg (Optional)
 * Generated Graph of connection (like [Obsidian])
 * Search - inspired by [pelican's][pelican-search]
+* "Archetypes" or similar (inspired by [Hugo's][hugo-archtypes])
 
 ## Inspirations
 
