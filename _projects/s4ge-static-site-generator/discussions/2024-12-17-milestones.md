@@ -16,26 +16,26 @@ open: true
 
 #### Version 0.1.0
 
-- Recursively render md to html in source folder
-- Copy all resources into output folder
-- Render html-ed source in templates
+- [X] Recursively render md to html in source folder
+- [X] Copy all resources into output folder
+- [X] Render html-ed source in templates
 
 #### Version 0.1.1
 
-- Pre-render source as templates (no context)
+- [X] Pre-render source as templates (no context)
 
 #### Version 0.1.2
 
-- Render based different templates based on configured layout
+- [X] Render based different templates based on configured layout
 
 #### Version 0.1.3
 
-- Separate front-matter from source
+- [X] Separate front-matter from source
 
 #### Version 0.1.4
 
-- Load front-matter on template rendering (on md and layout)
+- [X] Load front-matter on template rendering (on md and layout)
 
 #### Version 0.1.5
 
-- Load file structure to context
+- [ ] Load file structure to context
