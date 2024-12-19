@@ -1,0 +1,494 @@
+---
+title: Resume
+nav: true
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>
+    Murilo Rosa's Resume - English
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Murilo Rosa's Curriculum Vitae." />
+  <meta name="author" content="Murilo Rosa" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #ffe6e6;
+      padding: 20px;
+    }
+
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px #0000001f;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #222;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      color: #444;
+    }
+
+    p {
+      margin-bottom: 1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul {
+      margin-bottom: 1em;
+      padding-left: 20px;
+      list-style-type: disc;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    dl {
+      margin-bottom: 1em;
+    }
+
+    dt {
+      font-weight: bold;
+    }
+
+    dd {
+      margin-left: 20px;
+    }
+
+    dl.inline {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 10px 20px;
+      align-items: start;
+    }
+
+    dl.inline dt {
+      font-weight: normal;
+    }
+
+    dl.inline dd {
+      margin: 0;
+    }
+
+
+    div {
+      margin-bottom: 1em;
+      padding: 10px;
+      background: #fff6f6;
+      border-radius: 5px;
+      min-height: auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .left,
+    .right {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .left {
+      background-color: #fff6f6;
+    }
+
+    .right {
+      background-color: #fff;
+      border-top: 2px solid #ccc;
+      border-bottom: 0.1px solid #fff;
+    }
+
+    .site-only {
+      display: initial;
+    }
+
+    .print-only {
+      display: none;
+    }
+
+    @media (min-width: 760px) {
+      .container {
+        flex-direction: row;
+      }
+
+      .left {
+        width: 30%;
+      }
+
+      .right {
+        width: 70%;
+        border-left: 2px solid #ccc;
+        border-top: none;
+      }
+    }
+
+    @media print {
+      * {
+        font-size: 13px;
+      }
+
+      body {
+        transform: scale(90%);
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        background-color: #ffff;
+        color: #000 !important;
+      }
+
+      main {
+        margin: auto;
+        box-shadow: none;
+      }
+
+      span.group {
+        display: block;
+        page-break-inside: avoid;
+      }
+
+      .print-only {
+        display: initial;
+      }
+
+      .site-only {
+        display: none;
+      }
+
+      span.print-separator {
+        display: block;
+        padding-bottom: 16px;
+      }
+
+      main {
+        padding: 10px;
+        background: #fff;
+        box-shadow: none;
+      }
+
+      section {
+        margin-bottom: 10px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        margin-bottom: 10px;
+        padding-left: 16px;
+        list-style-type: disc;
+      }
+
+      li {
+        margin-bottom: 2px;
+      }
+
+      dl {
+        margin-bottom: 10px;
+      }
+
+      dd {
+        margin-left: 10px;
+      }
+
+      dl.inline {
+        gap: 8px 16px;
+      }
+
+      div {
+        margin-bottom: 10px;
+        padding: 8px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="left">
+        <h1>Murilo Rosa</h1>
+        <p>
+          <strong>Computer Science Bachelor by the University of Porto</strong>
+        </p>
+        <p class="extra">
+          Software Developer passionate about problem-solving! Inspired by beautifully designed and implemented systems.
+        </p>
+      </div>
+      <div class="right">
+        <dl class="contact inline">
+          <dt>Location:</dt>
+          <dd>Porto, Portugal</dd>
+          <dt>Phone Number:</dt>
+          <dd>(Portugal) 915 020 625</dd>
+          <dt>E-mail:</dt>
+          <dd>mrmurilo75<span class="site-only">[at]</span><span class="print-only">@</span>gmail.com</dd>
+          <dt>LinkedIn:</dt>
+          <dd><a href="https://linkedin.com/in/murilo-r-630161123/">linkedin.com/in/murilo-r-630161123/</a></dd>
+          <dt>GitHub:</dt>
+          <dd><a class="https://github.com/mrmurilo75/">github.com/mrmurilo75/</a></dd>
+          <dt>Personal Site:</dt>
+          <dd><a class="https://mrmurilo75.github.io/">mrmurilo75.github.io/</a></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="container">
+      <div class="skills left">
+        <section class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Portuguese (Native)</li>
+            <li>English (Fluent)</li>
+          </ul>
+        </section>
+        <section class="technical-skill">
+          <h2>Technical Skills</h2>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>C</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Bash</li>
+          </ul>
+          <h3>Technologies & Tools</h3>
+          <ul>
+            <li>Django</li>
+            <li>Django REST Framework</li>
+            <li>Pandas</li>
+            <li>Selenium</li>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>Microsoft SQL Server</li>
+            <li>Docker and Docker Compose</li>
+            <li>Git</li>
+            <li>Postman</li>
+            <li>Unix Shell</li>
+            <li>GNU/Linux</li>
+          </ul>
+        </section>
+      </div>
+      <div class="experience right">
+        <section class="professional">
+          <h2>Professional Experience</h2>
+          <dl>
+            <span class="group">
+              <dt>Project Delivery Engineer</dt>
+              <dd>
+                <p>Content Guru (September 2023 - November 2024)</p>
+                <ul>
+                  <li>
+                    Provisioning and configuration of services to customers.
+                  </li>
+                  <li>
+                    Testing and debugging of misconfigured services.
+                  </li>
+                  <li>
+                    Development of internal tools to facilitate and automate the provisioning of services.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+            <span class="group">
+              <dt>Full-Stack Developer</dt>
+              <dd>
+                <p>Ad. Evolutio (March 2022 - September 2023)</p>
+                <ul>
+                  <li>
+                    Complete development of Django-based applications from client's specification, including data
+                    modelling, validation of business logic, integration with external services, integration with use
+                    case-specific frameworks, and more.
+                  </li>
+                  <li>
+                    Design and development of Django reusable apps.
+                  </li>
+                  <li>
+                    Maintenance and support of deployed applications.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+            <span class="group">
+              <dt>Internship</dt>
+              <dd>
+                <p>Ad. Evolutio (October 2021 - March 2022)</p>
+                <ul>
+                  <li>
+                    Development of a Django reusable app to digitally sign PDF files with a certificate provided by a
+                    Certification Authority.
+                  </li>
+                  <li>
+                    Secondary project of development of a payment plugin for the Pretix open-source ticketing system, in
+                    partnership with SIBS.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+          </dl>
+        </section>
+        <section>
+          <h2>Academic Experience</h2>
+          <dl class="academic">
+            <span class="group">
+              <dt>Member <span class="separator">of</span> NUCC - Núcleo de Ciência de Computadores</dt>
+              <dd>
+                <p>Science Faulty of the University of Porto (October 2019 - September 2021)</p>
+                <ul>
+                  <li>
+                    Organized and presented the C Language Workshop.
+                  </li>
+                  <li>
+                    Assisted in the Linux Installation Party event.
+                  </li>
+                  <li>
+                    Part of the official site development team.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+            <span class="group">
+              <span class="print-only print-separator"></span>
+              <dt>Programmer <span class="separator">of</span> TamanduTech Robotics Team</dt>
+              <dd>
+                <p>Federal University of ABC (September 2018 - June 2019)</p>
+                <ul>
+                  <li>
+                    Work with the team to develop the algorithms and assemble the
+                    electronics components aiming for the best performance in the several competitions, mainly in the
+                    Line Follower category.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+            <span class="group">
+              <dt>Member <span class="separator">of</span> IEEE - Student Branch</dt>
+              <dd>
+                <p>Federal University of ABC (July 2018 - September 2019)</p>
+                <ul>
+                  <li>
+                    Participation in the recovery and repair of several computers, monitors,
+                    projectors, and other electronics owned by the Federal University of ABC.
+                  </li>
+                  <li>
+                    Participation in the development and build of indicator sign, composed of an acrylic plate with LED
+                    lights, controlled through the Internet.
+                  </li>
+                </ul>
+            </span>
+            <span class="group">
+              </dd>
+              <dt>Member <span class="separator">of</span> GRUB Competitive Programming Team</dt>
+              <dd>
+                <p>Federal University of ABC (July 2018 - September 2019)</p>
+                <ul>
+                  <li>
+                    Participation in online programming competitions.
+                  </li>
+                  <li>
+                    Assistance in training new members.
+                  </li>
+                </ul>
+              </dd>
+            </span>
+          </dl>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <dl>
+            <span class="group">
+              <dt>
+                Computer Science Bachelor's Degree
+              </dt>
+              <dd>
+                <p>University of Porto, Science Faculty (September 2019 - July 2022)</p>
+              </dd>
+            </span>
+            <span class="group">
+              <dt>
+                Science and Technology Bachelor's Degree (Unfinished)
+              </dt>
+              <dd>
+                <p>Federal University of ABC (May 2018 - September 2019)</p>
+              </dd>
+            </span>
+            <span class="group">
+              <dt>
+                American High School Degree
+              </dt>
+              <dd>
+                <p>University of Missouri & Fénix High School of Guaratinguetá (February 2015 - December 2017)</p>
+              </dd>
+            </span>
+          </dl>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
