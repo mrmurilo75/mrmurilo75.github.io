@@ -22,18 +22,18 @@ title: Murilo's Pink Space 🧠
 email: mrmurilo75[at]gmail.com
 author: Murilo Rosa
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Murilo Rosa (which means pink in portuguese 😃). This is my personal 
-  blog, where I'll make notes of (most) things I learn. Hope you enjoy your time here!
+    Hi, my name is Murilo Rosa (which means pink in portuguese 😃). This is my personal
+    blog, where I'll make notes of (most) things I learn. Hope you enjoy your time here!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mrmurilo75.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: mrmurilo75.github.io
-github_username:  mrmurilo75
+github_username: mrmurilo75
 linkedin_username: murilo-r-630161123
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,27 +58,25 @@ plugins:
 ############
 ## Custom ##
 
-## Collections 
-# For further information see: 
+## Collections
+# For further information see:
 #   https://jekyllrb.com/docs/collections/
 #   https://jekyllrb.com/docs/step-by-step/09-collections/
 
 collections:
-  notebook:
-    output: true
-    permalink: /:collection/:path
-  projects:
-    output: true
-    permalink: /:collection/:path
+    notebook:
+        output: true
+        permalink: /:collection/:path
+    projects:
+        output: true
+        permalink: /:collection/:path
 
 defaults:
-  -
-    scope:
-      path: "_projects"
-    values:
-      layout: post
-  -
-    scope:
-      path: "_notebook"
-    values:
-      layout: post
+    - scope:
+          path: "_projects"
+      values:
+          layout: post
+    - scope:
+          path: "_notebook"
+      values:
+          layout: post
