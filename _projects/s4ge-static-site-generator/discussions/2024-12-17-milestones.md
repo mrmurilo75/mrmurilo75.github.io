@@ -38,4 +38,4 @@ open: true
 
 #### Version 0.1.5
 
-- [ ] Load file structure to context
+- [X] Load file structure to context
