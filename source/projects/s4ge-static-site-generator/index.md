@@ -5,9 +5,9 @@ title: s4ge - Static Site Generator
 [pink-space]: https://mrmurilo75.github.io/
 [s4ge-poc-commit]: https://github.com/mrmurilo75/s4ge-static-site-generator/commit/05fb6f0239946279873641da4a4faa3661742b29
 [s4ge-deployed]: https://mrmurilo75.github.io/s4ge-static-site-generator/
-[inspirations]: {% link _projects/s4ge-static-site-generator/inspirations.md %}
-[log-mvp]: {% link _projects/s4ge-static-site-generator/logs/2024-12-09-mvp.md %}
-[canceled-mvp]: {% link _projects/s4ge-static-site-generator/discussions/closed/2024-12-09-minimum-viable-product.md %}
+[inspirations]: /projects/s4ge-static-site-generator/inspirations.html
+[log-mvp]: /projects/s4ge-static-site-generator/logs/2024-12-09-mvp.html
+[canceled-mvp]: /projects/s4ge-static-site-generator/discussions/closed/2024-12-09-minimum-viable-product.html
 
 
 A **S**tupidly **S**imple **S**tatic **S**ite **Ge**nerator. Write, Process, HTML.
@@ -46,41 +46,25 @@ Check out the [Inspirations and Ideas][inspirations] for future features!
 
 ### Discussions
 
-{% assign discussions = site.projects | where: "project", page.project | where: "category", "discussion" %}
+{% set discussions = pages['projects']['s4ge-static-site-generator']['discussions'] %}
 
 #### Open
 
-{% assign is_open = discussions | where: "open", true %}
-{% for discussion in is_open %}
-* [{{discussion.title}}]({{discussion.url}})
+{% for discussion in discussions %}
+    {% if discussion != '_values' and discussions[discussion]['_values']['open'] %}
+
+- [{{ discussion.title }}]({{ discussion.path }}.html)
+
+    {% endif %}
 {% endfor %}
 
 #### Closed
 
-{% assign closed = discussions | where: "open", false %}
-{% for discussion in closed %}
-* [{{discussion.title}}]({{discussion.url}})
+
+{% for discussion in discussions %}
+    {% if discussion != '_values' and not discussions[discussion]['_values']['open'] %}
+
+- [{{ discussion.title }}]({{ discussion.path }}.html)
+
+    {% endif %}
 {% endfor %}
-
----
-
-## Monitoring
-
-### Logs
-
-{% assign logs = site.projects | where: "project", page.project | where: "category", "log" %}
-{% for log in logs %}
-* [{{ log.date | date: "%Y-%m-%d" }} {{log.title}}]({{log.url}})
-{% endfor %}
-
----
-
-## Review
-
-### Reports
-
-{% assign reports = site.projects | where: "project", page.project | where: "category", "report" %}
-{% for report in reports %}
-* [{{ report.date | date: "%Y-%m-%d" }} \| {{report.title}}]({{report.url}})
-{% endfor %}
-

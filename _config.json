@@ -3,8 +3,9 @@
   "rendered": "_rendered",
   "destination": "_site",
   "templates": "templates",
-  "style_sheet": "/assets/main.css",
+  "style_sheet": "/home/mrmurilo75/Desktop/mrmurilo75.github.io/_site/assets/main.css",
   "cascade": {
-    "_values": { "layout": "default.html" }
+    "_values": { "layout": "default.html" },
+    "resume": { "_values": { "title": "Resume", "nav": true, "path": "resume" } }
   }
 }

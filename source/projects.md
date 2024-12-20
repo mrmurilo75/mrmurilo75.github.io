@@ -5,9 +5,10 @@ nav: true
 
 ## Projects
 
-{% assign entries = site.projects | where: "category", "index" %}
-{% for entry in entries %}
-* [{{entry.title}}]({{entry.url}})
+{% for entry in pages['projects'] %}
+    {% if entry != '_values' %}
+* [{{ pages['projects'][entry]['index']['_values']['title'] }}](/{{ pages['projects'][entry]['index']['_values']['path'] }}.html)
+    {% endif %}
 {% endfor %}
 
 

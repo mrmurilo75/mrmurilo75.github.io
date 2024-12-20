@@ -1,13 +1,13 @@
 ---
 title: Pink Space - My personal website
 ---
-[welcome-to-jekyll]: {% link _posts/2024-09-17-welcome-to-jekyll---by-me.md %}
-[resume]: {% link resume.html %}
-[curso-dev_day-5-and-6]: {% link _projects/curso-dev/class-notes/day-5-and-6.md %}
-[curso-dev_day-8-and-9]: {% link _projects/curso-dev/class-notes/day-8-and-9.md %}
-[custom-layout_log]: {% link _projects/pink-space/log/2024-11-15-custom-layout.md %}
-[notebook-notes-groups_log]: {% link _projects/pink-space/log/2024-11-15-notebook-notes-groups.md %}
 
+[welcome-to-jekyll]: /_posts/2024-09-17-welcome-to-jekyll---by-me.md
+[resume]: /resume.html
+[curso-dev_day-5-and-6]: /projects/curso-dev/class-notes/day-5-and-6.html
+[curso-dev_day-8-and-9]: /projects/curso-dev/class-notes/day-8-and-9.html
+[custom-layout_log]: /projects/pink-space/log/2024-11-15-custom-layout.html
+[notebook-notes-groups_log]: /projects/pink-space/log/2024-11-15-notebook-notes-groups.html
 
 ## Planning
 
@@ -17,11 +17,11 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 ### Scope
 
-* Planning and tracking projects
-* Note-taking
-* Create reference for repeatable tasks
-* Reference inspirations
-* Software agnostic - content needs to be visible and understandable as plain text
+-   Planning and tracking projects
+-   Note-taking
+-   Create reference for repeatable tasks
+-   Reference inspirations
+-   Software agnostic - content needs to be visible and understandable as plain text
 
 ### Roadmap
 
@@ -61,40 +61,26 @@ This site is a hub of knowledge for myself. Not only will I write studies/posts,
 
 ### Discussions
 
-{% assign discussions = site.projects | where: "project", page.project | where: "category", "discussion" %}
-
 #### Open
 
-{% assign is_open = discussions | where: "open", true %}
-{% for discussion in is_open %}
-* [{{discussion.title}}]({{discussion.url}})
+{% for discussion in pages['projects']['pink-space']['discussions'] %}
+    {% if discussion != '_values' %}
+        {% if pages['projects']['pink-space']['discussions'][discussion]['_values']['open'] %}
+
+- [{{ discussion.title }}]({{ discussion.path }}.html)
+
+        {% endif %}
+    {% endif %}
 {% endfor %}
 
 #### Closed
 
-{% assign closed = discussions | where: "open", false %}
-{% for discussion in closed %}
-* [{{discussion.title}}]({{discussion.url}})
-{% endfor %}
+{% for discussion in pages['projects']['pink-space']['discussions'] %}
+    {% if discussion != '_values' %}
+        {% if pages['projects']['pink-space']['discussions'][discussion]['_values']['open'] %}
 
----
+- [{{ discussion.title }}]({{ discussion.path }})
 
-## Monitoring
-
-### Logs
-
-{% assign logs = site.projects | where: "project", page.project | where: "category", "log" %}
-{% for log in logs %}
-* [{{ log.date | date: "%Y-%m-%d" }} {{log.title}}]({{log.url}})
-{% endfor %}
-
----
-
-## Review
-
-### Reports
-
-{% assign reports = site.projects | where: "project", page.project | where: "category", "report" %}
-{% for report in reports %}
-* [{{ report.date | date: "%Y-%m-%d" }} \| {{report.title}}]({{report.url}})
+        {% endif %}
+    {% endif %}
 {% endfor %}

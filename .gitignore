@@ -172,6 +172,5 @@ cython_debug/
 .doit.db
 
 # s4ge stuff
-_site/
 _rendered/
 
