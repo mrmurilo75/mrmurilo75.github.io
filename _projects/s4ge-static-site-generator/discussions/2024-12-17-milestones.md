@@ -5,6 +5,7 @@ project: s4ge
 date: 2024-12-17
 open: true
 ---
+[s4ge-branch]: https://github.com/mrmurilo75/mrmurilo75.github.io/tree/s4ge-ebde963
 
 ## Conclusion
 
@@ -39,3 +40,11 @@ open: true
 #### Version 0.1.5
 
 - [X] Load file structure to context
+
+#### Version 0.1.6
+
+> The viability of using this as the engine for this blog has been tested out in [this branch][s4ge-branch]
+
+- [ ] Create it's own CLI (see paletsproject's Click)
+- [ ] Create PyPI compatible package
+- [ ] Test instalation from github (or pip) and CLI commands
