@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Sender App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #messages {
+      margin-top: 20px;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+    .message {
+      margin-bottom: 10px;
+      padding: 8px;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+    }
+    #inputSection {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    #textField {
+      padding: 10px;
+      flex-grow: 1;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    #sendButton {
+      padding: 10px 15px;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #sendButton:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Text Sender App</h1>
+
+  <div id="inputSection">
+    <input type="text" id="textField" placeholder="Enter your message">
+    <button id="sendButton">Send</button>
+  </div>
+
+  <div id="messages"></div>
+
+  <script>
+    // Function to display messages from local storage
+    function displayMessages() {
+      const messagesContainer = document.getElementById('messages');
+      const messages = JSON.parse(localStorage.getItem('messages')) || [];
+
+      // Clear existing messages
+      messagesContainer.innerHTML = '';
+
+      // Display each message
+      messages.forEach(message => {
+        const messageElement = document.createElement('div');
+        messageElement.classList.add('message');
+        messageElement.textContent = message;
+        messagesContainer.appendChild(messageElement);
+      });
+    }
+
+    // Function to save message to local storage
+    function saveMessage(message) {
+      const messages = JSON.parse(localStorage.getItem('messages')) || [];
+      messages.unshift(message); // Add to the front of the array
+      localStorage.setItem('messages', JSON.stringify(messages));
+    }
+
+    // Handle sending the message
+    document.getElementById('sendButton').addEventListener('click', () => {
+      const textField = document.getElementById('textField');
+      const message = textField.value.trim();
+
+      if (message) {
+        saveMessage(message);
+        textField.value = ''; // Clear the text field
+        displayMessages(); // Update the displayed messages
+      }
+    });
+
+    // Initialize the app by displaying any saved messages
+    displayMessages();
+  </script>
+</body>
+</html>
