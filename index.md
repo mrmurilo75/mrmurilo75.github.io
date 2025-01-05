@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-[resume]: {% link resume.html %}
+[resume]: https://drive.google.com/file/d/1bpDETshnO8NLp3tG60uS14RyiNTybjqY/view?usp=sharing
 [portuguese-resume]: {% link portuguese-resume.html %}
 [_post-welcome-to-jekyll---by-me]: {% link _posts/2024-09-17-welcome-to-jekyll---by-me.md %}
 
@@ -23,4 +23,4 @@ I wanted an online space to have my personal notes, so I wouldn't need to keep b
 
 ## What's next
 
-I have a lot of knowledge and discussions with myself that I plan to put in here, but not all at once. As a guiding principle, I've come the realisation that **incremental changes** are the way to go. So it makes sense that the first post is a guide and discussion on [how this very site was built and deployed][_post-welcome-to-jekyll---by-me]. After this, any progressive change will (hopefully) be accompanied by a post, note, or another form of study mechanism. 
+I have a lot of knowledge and discussions with myself that I plan to put in here, but not all at once. As a guiding principle, I've come the realisation that **incremental changes** are the way to go. So it makes sense that the first post is a guide and discussion on [how this very site was built and deployed][_post-welcome-to-jekyll---by-me]. After this, any progressive change will (hopefully) be accompanied by a post, note, or another form of study mechanism.
