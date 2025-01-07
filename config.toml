@@ -1,0 +1,4 @@
+baseURL = 'https://murilorosa.space/'
+languageCode = 'en'
+title = "Murilo's Pink Space 🧠"
+theme = 'ananke'
